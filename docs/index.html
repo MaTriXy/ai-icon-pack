@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Icon Pack</title>
+<meta name="description" content="1,178 Spark-style icons for AI apps — outline + filled, SVG & PNG, with a Claude skill that adds them to your project.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%237c3aed' d='M10 7Q11.5 12.5 17 14Q11.5 15.5 10 21Q8.5 15.5 3 14Q8.5 12.5 10 7Z'/%3E%3Cpath fill='%2306b6d4' d='M18 3Q18.7 5.3 21 6Q18.7 6.7 18 9Q17.3 6.7 15 6Q17.3 5.3 18 3Z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfbfd;--surface:#fff;--surface-2:#f4f4f7;--ink:#14141a;--ink-2:#4b4b57;--muted:#7a7a88;--line:#e6e6ec;
+  --accent:#6d28d9;--accent-ink:#fff;--accent-soft:#ede9fe;--code-bg:#15151c;--code-ink:#e9e9f1;
+  --grad:linear-gradient(135deg,#8b5cf6 0%,#6366f1 55%,#06b6d4 100%);--radius:14px;--shadow:0 1px 2px rgba(20,20,40,.04),0 8px 24px rgba(20,20,40,.06);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c0c10;--surface:#15151b;--surface-2:#1c1c24;--ink:#f3f3f7;--ink-2:#c3c3cf;--muted:#8d8d9b;--line:#272731;
+  --accent:#a78bfa;--accent-ink:#14141a;--accent-soft:#2a2340;--code-bg:#0f0f15;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.3)}}
+:root[data-theme="dark"]{
+  --bg:#0c0c10;--surface:#15151b;--surface-2:#1c1c24;--ink:#f3f3f7;--ink-2:#c3c3cf;--muted:#8d8d9b;--line:#272731;
+  --accent:#a78bfa;--accent-ink:#14141a;--accent-soft:#2a2340;--code-bg:#0f0f15;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.3)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+code,pre,kbd{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+button,select,input{font:inherit;color:inherit}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:8px 14px;font-weight:500;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn.primary:hover{opacity:.9}
+.btn svg{width:18px;height:18px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:16px;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px;color:var(--ink);text-decoration:none}
+.brand svg{width:26px;height:26px}
+nav .links{display:flex;gap:4px;margin-left:auto;align-items:center}
+nav .links a{color:var(--ink-2);text-decoration:none;padding:6px 10px;border-radius:8px;font-weight:500}
+nav .links a:hover{background:var(--surface-2);color:var(--ink)}
+.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;width:36px;height:36px;display:grid;place-items:center;cursor:pointer;color:var(--ink)}
+.icon-btn svg{width:18px;height:18px}
+@media (max-width:640px){nav .links a.hide-sm{display:none}}
+/* hero */
+.hero{padding:64px 0 40px;text-align:center}
+.hero h1{font-size:clamp(34px,6vw,60px);line-height:1.05;letter-spacing:-.03em;margin:0 0 16px;font-weight:800}
+.hero h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:clamp(16px,2.2vw,19px);color:var(--ink-2);max-width:680px;margin:0 auto 28px}
+.hero .cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.strip{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin:40px auto 0;max-width:820px}
+.strip svg{width:30px;height:30px;color:var(--ink)}
+.stats{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;margin-top:36px;color:var(--muted);font-size:14px}
+.stats b{display:block;color:var(--ink);font-size:22px;font-weight:700}
+/* gallery */
+section{padding:40px 0}
+h2{font-size:28px;letter-spacing:-.02em;margin:0 0 6px}
+.lead{color:var(--ink-2);margin:0 0 20px}
+.toolbar{position:sticky;top:60px;z-index:10;background:var(--bg);padding:12px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-bottom:1px solid var(--line)}
+.search{flex:1 1 240px;position:relative}
+.search input{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 12px 9px 38px;outline:none}
+.search input:focus{border-color:var(--accent)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:8px 12px;cursor:pointer;color:var(--ink-2);font-weight:500}
+.seg button[aria-pressed=true]{background:var(--accent-soft);color:var(--accent)}
+select{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 10px;max-width:220px}
+input[type=color]{width:36px;height:36px;border:1px solid var(--line);border-radius:10px;padding:3px;background:var(--surface);cursor:pointer}
+.count{color:var(--muted);font-size:14px;margin:14px 0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;margin-top:8px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 8px 10px;display:flex;flex-direction:column;align-items:center;gap:10px;cursor:pointer;min-width:0;transition:border-color .12s,transform .12s}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile img{display:block;width:var(--sz,28px);height:var(--sz,28px)}
+.tile span{font-size:11.5px;color:var(--muted);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cat-h{grid-column:1/-1;font-weight:600;margin:18px 0 2px;color:var(--ink-2);font-size:14px;display:flex;gap:8px;align-items:baseline}
+.cat-h small{color:var(--muted);font-weight:400}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,10,20,.35);opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(440px,100%);background:var(--surface);border-left:1px solid var(--line);z-index:50;transform:translateX(100%);transition:transform .22s ease;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+body.open .scrim{opacity:1;pointer-events:auto}body.open .drawer{transform:none}
+.drawer header{display:flex;align-items:center;gap:10px;padding:16px 18px;border-bottom:1px solid var(--line)}
+.drawer header h3{margin:0;font-size:18px;font-family:"JetBrains Mono",monospace;font-weight:500;overflow-wrap:anywhere}
+.drawer header .icon-btn{margin-left:auto;flex:none}
+.drawer .body{padding:18px;overflow:auto;display:flex;flex-direction:column;gap:16px}
+.previews{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.previews figure{margin:0;background:var(--surface-2);border-radius:12px;padding:22px 10px 10px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.previews svg{width:96px;height:96px;color:var(--icon-color,var(--ink))}
+.previews figcaption{font-size:12px;color:var(--muted)}
+.sizes{display:flex;gap:14px;align-items:flex-end;justify-content:center;background:var(--surface-2);border-radius:12px;padding:14px}
+.sizes svg{color:var(--icon-color,var(--ink))}
+.meta{font-size:14px;color:var(--ink-2)}.meta b{color:var(--ink)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.actions .btn{justify-content:center}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.snip{position:relative;background:var(--code-bg);color:var(--code-ink);border-radius:10px;padding:12px 44px 12px 14px;font-size:12.5px;white-space:pre-wrap;overflow-wrap:anywhere}
+.snip .copy{position:absolute;top:8px;right:8px;border:0;background:rgba(255,255,255,.1);color:#fff;border-radius:7px;width:28px;height:28px;display:grid;place-items:center;cursor:pointer}
+.snip .copy svg{width:15px;height:15px}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;margin-bottom:-8px}
+/* install */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.tabs button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;cursor:pointer;color:var(--ink-2);font-weight:500}
+.tabs button[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+.panel[hidden]{display:none}
+.panel h3{margin:0 0 6px;font-size:18px}
+.panel p{color:var(--ink-2);margin:0 0 12px}
+.panel ol{padding-left:20px;margin:0 0 12px;color:var(--ink-2)}.panel li{margin:4px 0}
+.panel .snip{margin:8px 0 14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.card svg{width:26px;height:26px;color:var(--accent)}
+.card h4{margin:10px 0 4px;font-size:16px}.card p{margin:0;color:var(--ink-2);font-size:14px}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px;margin-top:40px}
+footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:10px;opacity:0;transition:.2s;z-index:60;pointer-events:none;font-weight:500}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.progress{height:4px;background:var(--surface-2);border-radius:4px;overflow:hidden;flex:1 1 120px;min-width:100px;display:none}
+.progress i{display:block;height:100%;width:0;background:var(--grad)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="#top" data-ic="sparkles" data-style="filled" data-grad="1">AI Icon Pack</a>
+  <div class="links">
+    <a href="#icons">Icons</a><a href="#install">Install</a><a class="hide-sm" href="#use">Use</a>
+    <a class="hide-sm" href="https://github.com/djtoon/ai-icon-pack">GitHub</a>
+    <button class="icon-btn" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></button>
+  </div>
+</div></nav>
+
+<header class="hero wrap" id="top">
+  <h1>Icons that look like<br><span>they were made for AI.</span></h1>
+  <p><b id="hero-count">1,178</b> icons in one soft, rounded style, where the spark marks anything AI. Outline and filled, SVG and PNG, plus a skill that lets Claude (or any agent) drop them into your project.</p>
+  <div class="cta">
+    <a class="btn primary" href="#install"><span data-ic="sparkles" data-style="filled"></span>Install the skill</a>
+    <a class="btn" href="downloads/ai-icon-pack-svg.zip" download><span data-ic="download"></span>Download all SVGs</a>
+    <a class="btn" href="#icons"><span data-ic="search"></span>Browse icons</a>
+  </div>
+  <div class="strip" id="strip"></div>
+  <div class="stats"><div><b id="stat-icons">1,178</b>icons</div><div><b>2</b>styles</div><div><b>25</b>categories</div><div><b>SVG · PNG · React · Vue</b>formats</div></div>
+</header>
+
+<section id="icons"><div class="wrap">
+  <h2>Browse the pack</h2>
+  <p class="lead">Click any icon to copy or download it, see it at real sizes, and get the command that adds it to your project.</p>
+  <div class="toolbar">
+    <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-5-5"/></svg><input id="q" type="search" placeholder="Search by meaning: delete, ai chat, upload…" aria-label="Search icons" autocomplete="off"></label>
+    <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+    <div class="seg" role="group" aria-label="Style"><button data-style="outline" aria-pressed="true">Outline</button><button data-style="filled" aria-pressed="false">Filled</button></div>
+    <div class="seg" role="group" aria-label="Colour"><button data-color="ink" aria-pressed="true">Ink</button><button data-color="gradient" aria-pressed="false">AI gradient</button><button data-color="custom" aria-pressed="false">Custom</button></div>
+    <input type="color" id="color" value="#6d28d9" aria-label="Custom colour" hidden>
+    <select id="size" aria-label="Preview size"><option value="20">20px</option><option value="24">24px</option><option value="28" selected>28px</option><option value="32">32px</option><option value="40">40px</option></select>
+  </div>
+  <div class="row" style="justify-content:space-between;margin-top:6px">
+    <p class="count" id="count"></p>
+    <div class="row">
+      <div class="progress" id="progress"><i></i></div>
+      <select id="zip-size" aria-label="PNG size for bulk download"><option>16</option><option>24</option><option>32</option><option selected>64</option><option>128</option><option>256</option><option>512</option></select>
+      <button class="btn" id="zip-png"><span data-ic="download"></span>PNGs of shown icons (.zip)</button>
+    </div>
+  </div>
+  <div class="grid" id="grid" aria-live="polite"></div>
+</div></section>
+
+<section id="install"><div class="wrap">
+  <h2>Install</h2>
+  <p class="lead">The pack ships as an <b>Agent Skill</b>. Your agent can search all icons by meaning and add them to your project as SVG, PNG, React or Vue components, or an SVG sprite.</p>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="cc">Claude Code</button>
+    <button role="tab" aria-selected="false" data-tab="manual">Manual skill</button>
+    <button role="tab" aria-selected="false" data-tab="web">claude.ai / Desktop</button>
+    <button role="tab" aria-selected="false" data-tab="api">Claude API</button>
+    <button role="tab" aria-selected="false" data-tab="other">Other agents</button>
+    <button role="tab" aria-selected="false" data-tab="raw">Just the files</button>
+  </div>
+  <div class="panel" data-panel="cc">
+    <h3>Claude Code plugin (recommended)</h3>
+    <p>Add the marketplace and install the plugin, from your terminal or inside a Claude Code session:</p>
+    <div class="snip">claude plugin marketplace add djtoon/ai-icon-pack
+claude plugin install ai-icon-pack@ai-icon-pack</div>
+    <p>Or, inside a Claude Code session:</p>
+    <div class="snip">/plugin marketplace add djtoon/ai-icon-pack
+/plugin install ai-icon-pack@ai-icon-pack</div>
+    <p>Then just ask, e.g. <i>"add a regenerate and stop button to the chat input using the AI icon pack"</i>. The skill also loads on its own whenever you need icons.</p>
+  </div>
+  <div class="panel" data-panel="manual" hidden>
+    <h3>Copy the skill folder</h3>
+    <ol><li>Download <a href="downloads/ai-icon-pack-skill.zip" download>ai-icon-pack-skill.zip</a> and unzip it.</li><li>Move the <code>ai-icon-pack</code> folder into your skills directory:</li></ol>
+    <div class="snip"># personal: available in every project
+~/.claude/skills/ai-icon-pack/SKILL.md
+
+# project: commit it so your team gets it too
+.claude/skills/ai-icon-pack/SKILL.md</div>
+    <p>Or clone and copy in one go:</p>
+    <div class="snip">git clone https://github.com/djtoon/ai-icon-pack.git
+cp -r ai-icon-pack/plugins/ai-icon-pack/skills/ai-icon-pack ~/.claude/skills/</div>
+  </div>
+  <div class="panel" data-panel="web" hidden>
+    <h3>Upload to claude.ai or Claude Desktop</h3>
+    <ol><li>Download <a href="downloads/ai-icon-pack-skill.zip" download>ai-icon-pack-skill.zip</a>. Keep it zipped.</li><li>Open <b>Settings → Capabilities</b> and make sure code execution is on.</li><li>Under <b>Skills</b>, choose <b>Upload skill</b> and select the zip.</li></ol>
+    <p>Ask Claude for icons in any chat and it returns ready-to-use SVG or component files.</p>
+  </div>
+  <div class="panel" data-panel="api" hidden>
+    <h3>Claude API (Agent Skills)</h3>
+    <p>Upload the unzipped skill folder once, then attach it to requests that use the code execution tool:</p>
+    <div class="snip">import anthropic
+from anthropic.lib import files_from_dir
+
+client = anthropic.Anthropic()
+skill = client.skills.create(files=files_from_dir("ai-icon-pack"))
+
+client.messages.create(
+    model="claude-opus-5-5", max_tokens=4096,
+    container={"skills": [{"type": "custom", "skill_id": skill.id, "version": "latest"}]},
+    tools=[{"type": "code_execution_20250825", "name": "code_execution"}],
+    messages=[{"role": "user", "content": "Give me React components for upload, ai-search and settings"}],
+)</div>
+  </div>
+  <div class="panel" data-panel="other" hidden>
+    <h3>Any agent that supports SKILL.md</h3>
+    <p>The skill follows the open Agent Skills format: a folder with <code>SKILL.md</code>, a zero-dependency Node script and the SVGs. Copy <code>ai-icon-pack/</code> into your agent's skills directory (for example <code>~/.codex/skills/</code> or your framework's equivalent), or point the agent at <code>SKILL.md</code>.</p>
+    <p>No skill support? The script works on its own:</p>
+    <div class="snip">node ai-icon-pack/scripts/icons.mjs search "ai chat"
+node ai-icon-pack/scripts/icons.mjs add chat-sparkle regenerate --out src/icons --format react</div>
+  </div>
+  <div class="panel" data-panel="raw" hidden>
+    <h3>Use the icons directly</h3>
+    <p><a href="downloads/ai-icon-pack-svg.zip" download>Download all SVGs</a> (outline, filled and AI gradient), or download single SVGs and PNGs from the gallery above. To build every PNG size (16 to 512px, black, white and gradient) locally:</p>
+    <div class="snip">git clone https://github.com/djtoon/ai-icon-pack.git
+cd ai-icon-pack && npm install && npm run build   # → dist/svg, dist/png, dist/preview.html</div>
+  </div>
+</div></section>
+
+<section id="use"><div class="wrap">
+  <h2>What your agent can do with it</h2>
+  <p class="lead">One script, <code>scripts/icons.mjs</code>, with zero dependencies, used through the skill:</p>
+  <div class="cards">
+    <div class="card"><span data-ic="ai-search"></span><h4>Search by meaning</h4><p><code>search delete</code> finds trash, <code>search ai reply</code> finds chat-sparkle. Synonyms are built in.</p></div>
+    <div class="card"><span data-ic="code"></span><h4>Framework-native output</h4><p>React (.tsx/.jsx) and Vue components with a <code>size</code> prop, plain SVG, or a merged SVG sprite.</p></div>
+    <div class="card"><span data-ic="image"></span><h4>PNG at any size</h4><p><code>--format png --size 24,48,512 --color "#111"</code> for native apps, email and docs.</p></div>
+    <div class="card"><span data-ic="sparkles" data-style="filled" data-grad="1"></span><h4>AI gradient</h4><p>Add <code>--gradient</code> to bake in the violet to cyan gradient for AI highlights.</p></div>
+  </div>
+  <div class="snip" style="margin-top:16px">node scripts/icons.mjs add chat-sparkle regenerate stop-generating --out src/components/icons --format react --style both</div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>AI Icon Pack · MIT licensed · Spark style</span>
+  <span><a href="https://github.com/djtoon/ai-icon-pack">GitHub</a> · <a href="https://github.com/djtoon/ai-icon-pack/blob/main/STYLE.md">Style guide</a> · <a href="https://github.com/djtoon/ai-icon-pack/blob/main/ICONS.md">Full list</a></span>
+</div></footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Icon details" aria-hidden="true">
+  <header><h3 id="d-name"></h3><button class="icon-btn" id="d-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+  <div class="body">
+    <div class="previews"><figure id="d-o"></figure><figure id="d-f"></figure></div>
+    <div class="sizes" id="d-sizes"></div>
+    <div class="meta" id="d-meta"></div>
+    <div class="label">Selected style</div>
+    <div class="actions">
+      <button class="btn" id="d-copy"><span data-ic="copy"></span>Copy SVG</button>
+      <button class="btn" id="d-svg"><span data-ic="download"></span>Download SVG</button>
+      <select id="d-png-size" aria-label="PNG size"><option>16</option><option>24</option><option>32</option><option>48</option><option selected>64</option><option>128</option><option>256</option><option>512</option></select>
+      <button class="btn" id="d-png"><span data-ic="image"></span>Download PNG</button>
+    </div>
+    <div class="label">Add with the skill</div>
+    <div class="snip" id="d-cli"></div>
+    <div class="label">React</div>
+    <div class="snip" id="d-react"></div>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="icons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer></script>
+<script>
+(() => {
+  const PACK = window.ICON_PACK || { icons: [], version: '' };
+  const ICONS = PACK.icons;
+  const byName = new Map(ICONS.map(i => [i.n, i]));
+  const $ = s => document.querySelector(s);
+  const state = { q: '', cat: '', style: 'outline', color: 'ink', custom: '#6d28d9', size: 28, current: null };
+  let gid = 0;
+
+  const fmt = n => n.toLocaleString('en-US');
+  $('#hero-count').textContent = $('#stat-icons').textContent = fmt(ICONS.length);
+  document.title = `AI Icon Pack — ${fmt(ICONS.length)} icons for AI apps`;
+
+  // ── colour handling ──
+  function gradientize(svg) {
+    const id = 'g' + (++gid);
+    const defs = `<defs><linearGradient id="${id}" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8B5CF6"/><stop offset=".55" stop-color="#6366F1"/><stop offset="1" stop-color="#06B6D4"/></linearGradient></defs>`;
+    return svg.replace(/(<svg[^>]*>)/, `$1${defs}`).replaceAll('currentColor', `url(#${id})`);
+  }
+  // Unique mask ids so many inline copies never collide.
+  function uniq(svg) {
+    const n = ++gid;
+    return svg.replace(/id="([^"]+)"/g, `id="$1-${n}"`).replace(/url\(#([^)]+)\)/g, `url(#$1-${n})`);
+  }
+  function svgOf(icon, style, color = state.color) {
+    let s = style === 'filled' ? icon.f : icon.o;
+    if (color === 'gradient') s = gradientize(s);
+    else if (color === 'custom') s = s.replaceAll('currentColor', state.custom);
+    return s;
+  }
+  const inline = (icon, style, color) => uniq(svgOf(icon, style, color));
+  // Grid tiles are <img> data URIs: hundreds of inline SVG masks make Chrome re-layout crawl.
+  const ink = () => getComputedStyle(document.body).color;
+  const tileSrc = (icon, style) => 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(state.color === 'ink' ? svgOf(icon, style, 'ink').replaceAll('currentColor', ink()) : svgOf(icon, style));
+
+  // static icons in the page chrome
+  document.querySelectorAll('[data-ic]').forEach(el => {
+    const ic = byName.get(el.dataset.ic); if (!ic) return;
+    const html = inline(ic, el.dataset.style || 'outline', el.dataset.grad ? 'gradient' : 'ink');
+    el.insertAdjacentHTML('afterbegin', html);
+    const svg = el.querySelector('svg'); if (el.tagName === 'SPAN') { svg.style.width = svg.style.height = el.closest('.card') ? '26px' : '18px'; }
+    if (el.classList.contains('brand')) svg.style.width = svg.style.height = '26px';
+  });
+  // hero strip
+  const showcase = ['sparkles','chat-sparkle','brain','bot','regenerate','image-generate','wand-sparkles','agent','prompt','home','lock','settings','bell','send','search','file-sparkle'];
+  $('#strip').innerHTML = showcase.filter(n => byName.has(n)).map((n, i) => inline(byName.get(n), i % 3 === 1 ? 'filled' : 'outline', i % 4 === 0 ? 'gradient' : 'ink')).join('');
+
+  // ── categories ──
+  const cats = [...new Set(ICONS.map(i => i.c))];
+  $('#cat').insertAdjacentHTML('beforeend', cats.map(c => `<option>${c}</option>`).join(''));
+
+  // ── search (same synonyms idea as the CLI, lighter) ──
+  const SYN = { ai:['sparkle','sparkles','bot','model','magic'], delete:['trash'], remove:['trash','minus'], close:['x'], add:['plus'], new:['plus'], settings:['cog','gear'], profile:['user'], message:['chat','mail'], email:['mail'], notification:['bell'], find:['search'], picture:['image'], photo:['image','camera'], voice:['microphone','speech'], money:['dollar','coins','wallet'], date:['calendar'], time:['clock'], doc:['file'], document:['file'], robot:['bot','robot'], magic:['sparkle','wand'], retry:['regenerate','refresh'], loading:['loader'] };
+  function matches(i, q) {
+    if (!q) return true;
+    const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    const hay = `${i.n} ${i.h} ${i.c}`.toLowerCase();
+    return terms.every(t => hay.includes(t) || (SYN[t] || []).some(s => hay.includes(s)));
+  }
+
+  // ── grid ──
+  let shown = [];
+  function render() {
+    shown = ICONS.filter(i => (!state.cat || i.c === state.cat) && matches(i, state.q));
+    const grid = $('#grid');
+    grid.style.setProperty('--sz', state.size + 'px');
+    let html = '', last = '';
+    const grouped = !state.q && !state.cat;
+    for (const i of shown) {
+      if (grouped && i.c !== last) { const n = ICONS.filter(x => x.c === i.c).length; html += `<div class="cat-h">${i.c}<small>${n}</small></div>`; last = i.c; }
+      html += `<button class="tile" data-n="${i.n}" title="${i.n}${i.h ? ' — ' + i.h.replace(/"/g, '&quot;') : ''}"><img src="${tileSrc(i, state.style)}" alt="" loading="lazy" decoding="async"><span>${i.n}</span></button>`;
+    }
+    grid.innerHTML = html || `<div class="empty">No icons match “${state.q}”. Try a broader word.</div>`;
+    $('#count').textContent = `${fmt(shown.length)} of ${fmt(ICONS.length)} icons`;
+  }
+  let t; $('#q').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 80); });
+  $('#cat').onchange = e => { state.cat = e.target.value; render(); };
+  $('#size').onchange = e => { state.size = +e.target.value; $('#grid').style.setProperty('--sz', state.size + 'px'); };
+  document.querySelectorAll('[data-style]').forEach(b => { if (b.tagName !== 'BUTTON' || !b.closest('.toolbar')) return; b.onclick = () => { state.style = b.dataset.style; document.querySelectorAll('.toolbar [data-style]').forEach(x => x.setAttribute('aria-pressed', x === b)); render(); if (state.current) openIcon(state.current); }; });
+  document.querySelectorAll('[data-color]').forEach(b => b.onclick = () => { state.color = b.dataset.color; document.querySelectorAll('[data-color]').forEach(x => x.setAttribute('aria-pressed', x === b)); $('#color').hidden = state.color !== 'custom'; render(); if (state.current) openIcon(state.current); });
+  $('#color').oninput = e => { state.custom = e.target.value; render(); if (state.current) openIcon(state.current); };
+  $('#grid').addEventListener('click', e => { const tile = e.target.closest('.tile'); if (tile) openIcon(tile.dataset.n); });
+
+  // ── drawer ──
+  const pascal = s => s.replace(/(^|-)([a-z0-9])/g, (_, __, c) => c.toUpperCase());
+  function openIcon(name) {
+    const i = byName.get(name); state.current = name;
+    $('#d-name').textContent = name;
+    $('#d-o').innerHTML = inline(i, 'outline') + '<figcaption>outline</figcaption>';
+    $('#d-f').innerHTML = inline(i, 'filled') + '<figcaption>filled</figcaption>';
+    $('#d-sizes').innerHTML = [16, 20, 24, 32, 48].map(s => { const h = inline(i, state.style); return h.replace('width="24" height="24"', `width="${s}" height="${s}"`); }).join('');
+    $('#d-meta').innerHTML = `<b>${i.c}</b>${i.h ? ' · ' + i.h : ''}`;
+    const flag = state.style === 'filled' ? ' --style filled' : '';
+    const grad = state.color === 'gradient' ? ' --gradient' : '';
+    setSnip('#d-cli', `node scripts/icons.mjs add ${name} --out src/icons${flag}${grad}`);
+    const comp = pascal(state.style === 'filled' ? name + '-filled' : name) + 'Icon';
+    setSnip('#d-react', `node scripts/icons.mjs add ${name} --out src/components/icons --format react${flag}${grad}\n\nimport { ${comp} } from './components/icons/${comp}';\n<${comp} size={20} className="text-violet-600" />`);
+    document.body.classList.add('open'); $('#drawer').setAttribute('aria-hidden', 'false');
+  }
+  function closeDrawer() { document.body.classList.remove('open'); $('#drawer').setAttribute('aria-hidden', 'true'); state.current = null; }
+  $('#d-close').onclick = closeDrawer; $('#scrim').onclick = closeDrawer;
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); } });
+
+  const copyIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>';
+  function setSnip(sel, text) { const el = $(sel); el.textContent = text; addCopy(el); }
+  function addCopy(el) { const b = document.createElement('button'); b.className = 'copy'; b.setAttribute('aria-label', 'Copy'); b.innerHTML = copyIcon; b.onclick = () => copy(el.firstChild.textContent ?? el.textContent); el.appendChild(b); }
+  document.querySelectorAll('.panel .snip, #use .snip').forEach(addCopy);
+
+  function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('on'), 1400); }
+  function copy(text) { navigator.clipboard.writeText(text).then(() => toast('Copied'), () => toast('Copy failed — select and copy manually')); }
+  function download(blob, filename) { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); }
+  const exportSvg = (i, style) => svgOf(i, style, state.color === 'ink' ? 'ink' : state.color);
+  const fileName = (i, style, ext) => `${i.n}${style === 'filled' ? '-filled' : ''}.${ext}`;
+
+  $('#d-copy').onclick = () => { const i = byName.get(state.current); copy(exportSvg(i, state.style)); };
+  $('#d-svg').onclick = () => { const i = byName.get(state.current); download(new Blob([exportSvg(i, state.style)], { type: 'image/svg+xml' }), fileName(i, state.style, 'svg')); };
+
+  function pngBlob(svg, size) {
+    // PNGs get a real colour: ink exports as near-black.
+    const src = svg.replaceAll('currentColor', '#111111').replace('width="24" height="24"', `width="${size}" height="${size}"`);
+    return new Promise((res, rej) => {
+      const img = new Image();
+      img.onload = () => { const c = document.createElement('canvas'); c.width = c.height = size; c.getContext('2d').drawImage(img, 0, 0, size, size); c.toBlob(b => b ? res(b) : rej(new Error('toBlob failed')), 'image/png'); };
+      img.onerror = rej;
+      img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(src);
+    });
+  }
+  $('#d-png').onclick = async () => { const i = byName.get(state.current); const size = +$('#d-png-size').value; download(await pngBlob(exportSvg(i, state.style), size), `${i.n}${state.style === 'filled' ? '-filled' : ''}-${size}.png`); };
+
+  $('#zip-png').onclick = async () => {
+    if (!window.JSZip) return toast('Zip library still loading — try again in a second');
+    const size = +$('#zip-size').value, list = shown.slice(), zip = new JSZip(), bar = $('#progress');
+    bar.style.display = 'block';
+    for (let k = 0; k < list.length; k++) {
+      const i = list[k];
+      zip.file(`${state.style}/${i.n}.png`, await pngBlob(exportSvg(i, state.style), size));
+      if (k % 20 === 0) { bar.firstElementChild.style.width = `${(k / list.length) * 100}%`; await new Promise(r => setTimeout(r)); }
+    }
+    bar.firstElementChild.style.width = '100%';
+    download(await zip.generateAsync({ type: 'blob' }), `ai-icon-pack-${state.style}-${state.color}-${size}px.zip`);
+    setTimeout(() => { bar.style.display = 'none'; bar.firstElementChild.style.width = 0; }, 800);
+  };
+
+  // ── install tabs ──
+  document.querySelectorAll('[data-tab]').forEach(b => b.onclick = () => {
+    document.querySelectorAll('[data-tab]').forEach(x => x.setAttribute('aria-selected', x === b));
+    document.querySelectorAll('[data-panel]').forEach(p => p.hidden = p.dataset.panel !== b.dataset.tab);
+  });
+
+  // ── theme ──
+  $('#theme').onclick = () => { const r = document.documentElement; const dark = r.dataset.theme === 'dark' || (!r.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches); r.dataset.theme = dark ? 'light' : 'dark'; try { localStorage.setItem('aip-theme', r.dataset.theme); } catch {} render(); };
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => render());
+  try { const saved = localStorage.getItem('aip-theme'); if (saved) document.documentElement.dataset.theme = saved; } catch {}
+
+  render();
+})();
+</script>
+</body>
+</html>

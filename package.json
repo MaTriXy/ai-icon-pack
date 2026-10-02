@@ -1,0 +1,21 @@
+{
+  "name": "ai-icon-pack",
+  "version": "1.0.0",
+  "description": "1,178 Spark-style icons for AI apps (outline + filled, SVG/PNG) with an Agent Skill that adds them to any project.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "package": "node scripts/package.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djtoon/ai-icon-pack.git"
+  },
+  "homepage": "https://djtoon.github.io/ai-icon-pack/"
+}

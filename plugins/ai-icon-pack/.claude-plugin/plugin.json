@@ -1,0 +1,11 @@
+{
+  "name": "ai-icon-pack",
+  "displayName": "AI Icon Pack",
+  "version": "1.0.0",
+  "description": "1,178 Spark-style icons for AI apps (outline + filled, optional AI gradient). Lets your agent search the pack and add icons to a project as SVG, PNG, React, Vue or an SVG sprite.",
+  "author": { "name": "djtoon", "url": "https://github.com/djtoon" },
+  "homepage": "https://djtoon.github.io/ai-icon-pack/",
+  "repository": "https://github.com/djtoon/ai-icon-pack",
+  "license": "MIT",
+  "keywords": ["icons", "svg", "ai", "ui", "react", "vue", "design"]
+}

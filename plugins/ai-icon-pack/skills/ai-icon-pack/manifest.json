@@ -1,0 +1,5901 @@
+{
+ "name": "ai-icon-pack",
+ "version": "1.0.0",
+ "count": 1178,
+ "styles": [
+  "outline",
+  "filled"
+ ],
+ "icons": [
+  {
+   "name": "sparkle",
+   "category": "AI core",
+   "hint": "single 4-point star"
+  },
+  {
+   "name": "sparkles",
+   "category": "AI core",
+   "hint": "one large and two small 4-point stars (the \"AI\" mark)"
+  },
+  {
+   "name": "magic-wand",
+   "category": "AI core",
+   "hint": ""
+  },
+  {
+   "name": "wand-sparkles",
+   "category": "AI core",
+   "hint": "wand with sparkles at the tip"
+  },
+  {
+   "name": "brain",
+   "category": "AI core",
+   "hint": ""
+  },
+  {
+   "name": "brain-circuit",
+   "category": "AI core",
+   "hint": "half brain, half circuit traces"
+  },
+  {
+   "name": "robot",
+   "category": "AI core",
+   "hint": "full robot head with antenna"
+  },
+  {
+   "name": "bot",
+   "category": "AI core",
+   "hint": "friendly rounded bot face"
+  },
+  {
+   "name": "bot-message",
+   "category": "AI core",
+   "hint": "bot inside a chat bubble"
+  },
+  {
+   "name": "assistant",
+   "category": "AI core",
+   "hint": "person silhouette with sparkle"
+  },
+  {
+   "name": "agent",
+   "category": "AI core",
+   "hint": "bot with a circular loop arrow"
+  },
+  {
+   "name": "agents",
+   "category": "AI core",
+   "hint": "three bots / multi-agent"
+  },
+  {
+   "name": "cpu",
+   "category": "AI core",
+   "hint": ""
+  },
+  {
+   "name": "gpu",
+   "category": "AI core",
+   "hint": "card with fan"
+  },
+  {
+   "name": "chip-sparkle",
+   "category": "AI core",
+   "hint": "chip with sparkle in center"
+  },
+  {
+   "name": "neural-network",
+   "category": "AI core",
+   "hint": "layered nodes with edges"
+  },
+  {
+   "name": "model",
+   "category": "AI core",
+   "hint": "cube with sparkle"
+  },
+  {
+   "name": "model-switch",
+   "category": "AI core",
+   "hint": "two cubes with swap arrows"
+  },
+  {
+   "name": "compare-models",
+   "category": "AI core",
+   "hint": "two cubes with a vs. divider"
+  },
+  {
+   "name": "prompt",
+   "category": "AI core",
+   "hint": "box with `>` and a cursor"
+  },
+  {
+   "name": "prompt-library",
+   "category": "AI core",
+   "hint": "stacked prompt cards"
+  },
+  {
+   "name": "prompt-template",
+   "category": "AI core",
+   "hint": "card with `{ }`"
+  },
+  {
+   "name": "system-prompt",
+   "category": "AI core",
+   "hint": "prompt box with a gear"
+  },
+  {
+   "name": "context-window",
+   "category": "AI core",
+   "hint": "brackets around text lines"
+  },
+  {
+   "name": "tokens",
+   "category": "AI core",
+   "hint": "stacked hex chips"
+  },
+  {
+   "name": "temperature",
+   "category": "AI core",
+   "hint": "thermometer"
+  },
+  {
+   "name": "embedding",
+   "category": "AI core",
+   "hint": "dots scattered in 3D axes"
+  },
+  {
+   "name": "vector",
+   "category": "AI core",
+   "hint": "arrow from the origin on axes"
+  },
+  {
+   "name": "vector-database",
+   "category": "AI core",
+   "hint": "cylinder with dots"
+  },
+  {
+   "name": "knowledge-base",
+   "category": "AI core",
+   "hint": "book with sparkle"
+  },
+  {
+   "name": "retrieval",
+   "category": "AI core",
+   "hint": "document with an arrow pulling out (RAG)"
+  },
+  {
+   "name": "memory",
+   "category": "AI core",
+   "hint": "brain with bookmark"
+  },
+  {
+   "name": "memory-off",
+   "category": "AI core",
+   "hint": "memory with slash"
+  },
+  {
+   "name": "thinking",
+   "category": "AI core",
+   "hint": "thought bubble with three dots"
+  },
+  {
+   "name": "reasoning",
+   "category": "AI core",
+   "hint": "lightbulb with gear"
+  },
+  {
+   "name": "chain-of-thought",
+   "category": "AI core",
+   "hint": "linked nodes in a chain"
+  },
+  {
+   "name": "planning",
+   "category": "AI core",
+   "hint": "checklist with sparkle"
+  },
+  {
+   "name": "tool-use",
+   "category": "AI core",
+   "hint": "wrench with sparkle"
+  },
+  {
+   "name": "function-call",
+   "category": "AI core",
+   "hint": "`f(x)`"
+  },
+  {
+   "name": "plugin",
+   "category": "AI core",
+   "hint": "puzzle piece"
+  },
+  {
+   "name": "connector",
+   "category": "AI core",
+   "hint": "two plugs joining"
+  },
+  {
+   "name": "mcp-server",
+   "category": "AI core",
+   "hint": "server with plug"
+  },
+  {
+   "name": "workflow",
+   "category": "AI core",
+   "hint": "three nodes in a flow with arrows"
+  },
+  {
+   "name": "pipeline",
+   "category": "AI core",
+   "hint": "horizontal staged pipe"
+  },
+  {
+   "name": "orchestration",
+   "category": "AI core",
+   "hint": "hub node with spokes"
+  },
+  {
+   "name": "fine-tune",
+   "category": "AI core",
+   "hint": "sliders with sparkle"
+  },
+  {
+   "name": "training",
+   "category": "AI core",
+   "hint": "brain with circular arrow"
+  },
+  {
+   "name": "dataset",
+   "category": "AI core",
+   "hint": "stacked table sheets"
+  },
+  {
+   "name": "data-labeling",
+   "category": "AI core",
+   "hint": "tag on a data row"
+  },
+  {
+   "name": "inference",
+   "category": "AI core",
+   "hint": "arrow passing through a cube"
+  },
+  {
+   "name": "evaluation",
+   "category": "AI core",
+   "hint": "clipboard with check and sparkle"
+  },
+  {
+   "name": "benchmark",
+   "category": "AI core",
+   "hint": "gauge with a bar"
+  },
+  {
+   "name": "leaderboard",
+   "category": "AI core",
+   "hint": "podium 1-2-3"
+  },
+  {
+   "name": "hallucination",
+   "category": "AI core",
+   "hint": "cloud with question mark"
+  },
+  {
+   "name": "guardrails",
+   "category": "AI core",
+   "hint": "road barrier"
+  },
+  {
+   "name": "ai-safety",
+   "category": "AI core",
+   "hint": "shield with sparkle"
+  },
+  {
+   "name": "alignment",
+   "category": "AI core",
+   "hint": "target with aligned arrows"
+  },
+  {
+   "name": "bias",
+   "category": "AI core",
+   "hint": "balance scale"
+  },
+  {
+   "name": "explainability",
+   "category": "AI core",
+   "hint": "magnifier over network nodes"
+  },
+  {
+   "name": "confidence",
+   "category": "AI core",
+   "hint": "semicircle gauge with needle"
+  },
+  {
+   "name": "seed",
+   "category": "AI core",
+   "hint": "sprouting seed"
+  },
+  {
+   "name": "variations",
+   "category": "AI core",
+   "hint": "2×2 grid with sparkle"
+  },
+  {
+   "name": "regenerate",
+   "category": "AI core",
+   "hint": "circular arrow with sparkle"
+  },
+  {
+   "name": "improve",
+   "category": "AI core",
+   "hint": "wand over text lines"
+  },
+  {
+   "name": "autocomplete",
+   "category": "AI core",
+   "hint": "text line with a ghost continuation"
+  },
+  {
+   "name": "suggestion",
+   "category": "AI core",
+   "hint": "lightbulb"
+  },
+  {
+   "name": "ai-search",
+   "category": "AI core",
+   "hint": "magnifier with sparkle"
+  },
+  {
+   "name": "deep-research",
+   "category": "AI core",
+   "hint": "magnifier over stacked layers"
+  },
+  {
+   "name": "web-browse",
+   "category": "AI core",
+   "hint": "globe with cursor"
+  },
+  {
+   "name": "computer-use",
+   "category": "AI core",
+   "hint": "monitor with cursor and sparkle"
+  },
+  {
+   "name": "code-interpreter",
+   "category": "AI core",
+   "hint": "terminal with play triangle"
+  },
+  {
+   "name": "multimodal",
+   "category": "AI core",
+   "hint": "text, image, and wave glyphs merged"
+  },
+  {
+   "name": "vision",
+   "category": "AI core",
+   "hint": "eye inside scan corners"
+  },
+  {
+   "name": "scan",
+   "category": "AI core",
+   "hint": "four scan corners"
+  },
+  {
+   "name": "ocr",
+   "category": "AI core",
+   "hint": "scan corners around a \"T\""
+  },
+  {
+   "name": "face-detect",
+   "category": "AI core",
+   "hint": "face inside scan corners"
+  },
+  {
+   "name": "object-detect",
+   "category": "AI core",
+   "hint": "bounding box with label tab"
+  },
+  {
+   "name": "segmentation",
+   "category": "AI core",
+   "hint": "shape with dashed mask outline"
+  },
+  {
+   "name": "pose-detect",
+   "category": "AI core",
+   "hint": "stick figure with joint dots"
+  },
+  {
+   "name": "upscale",
+   "category": "AI core",
+   "hint": "small square to large with diagonal arrow"
+  },
+  {
+   "name": "inpaint",
+   "category": "AI core",
+   "hint": "image with brush over a masked area"
+  },
+  {
+   "name": "outpaint",
+   "category": "AI core",
+   "hint": "image with dashed expansion border"
+  },
+  {
+   "name": "remove-background",
+   "category": "AI core",
+   "hint": "person over a checkerboard"
+  },
+  {
+   "name": "style-transfer",
+   "category": "AI core",
+   "hint": "brush with arrow between two frames"
+  },
+  {
+   "name": "image-generate",
+   "category": "AI core",
+   "hint": "image frame with sparkle"
+  },
+  {
+   "name": "video-generate",
+   "category": "AI core",
+   "hint": "film frame with sparkle"
+  },
+  {
+   "name": "audio-generate",
+   "category": "AI core",
+   "hint": "waveform with sparkle"
+  },
+  {
+   "name": "music-generate",
+   "category": "AI core",
+   "hint": "note with sparkle"
+  },
+  {
+   "name": "3d-generate",
+   "category": "AI core",
+   "hint": "cube wireframe with sparkle"
+  },
+  {
+   "name": "code-generate",
+   "category": "AI core",
+   "hint": "`</>` with sparkle"
+  },
+  {
+   "name": "text-generate",
+   "category": "AI core",
+   "hint": "text lines with sparkle"
+  },
+  {
+   "name": "voice-clone",
+   "category": "AI core",
+   "hint": "two overlapping heads with waves"
+  },
+  {
+   "name": "text-to-speech",
+   "category": "AI core",
+   "hint": "\"T\" with arrow to sound waves"
+  },
+  {
+   "name": "speech-to-text",
+   "category": "AI core",
+   "hint": "waves with arrow to \"T\""
+  },
+  {
+   "name": "transcribe",
+   "category": "AI core",
+   "hint": "mic with text lines"
+  },
+  {
+   "name": "translate",
+   "category": "AI core",
+   "hint": "\"A\" and a glyph with swap arrows"
+  },
+  {
+   "name": "summarize",
+   "category": "AI core",
+   "hint": "long lines to short lines"
+  },
+  {
+   "name": "rewrite",
+   "category": "AI core",
+   "hint": "pencil with circular arrow"
+  },
+  {
+   "name": "expand-text",
+   "category": "AI core",
+   "hint": "lines with outward arrows"
+  },
+  {
+   "name": "shorten-text",
+   "category": "AI core",
+   "hint": "lines with inward arrows"
+  },
+  {
+   "name": "change-tone",
+   "category": "AI core",
+   "hint": "speech bubble with a dial"
+  },
+  {
+   "name": "explain",
+   "category": "AI core",
+   "hint": "lightbulb with question mark"
+  },
+  {
+   "name": "classify",
+   "category": "AI core",
+   "hint": "items sorting into bins"
+  },
+  {
+   "name": "extract",
+   "category": "AI core",
+   "hint": "document with arrow out of a box"
+  },
+  {
+   "name": "sentiment",
+   "category": "AI core",
+   "hint": "smile and frown halves"
+  },
+  {
+   "name": "ai-avatar",
+   "category": "AI core",
+   "hint": "portrait with sparkle"
+  },
+  {
+   "name": "persona",
+   "category": "AI core",
+   "hint": "mask"
+  },
+  {
+   "name": "digital-human",
+   "category": "AI core",
+   "hint": "head with circuit lines"
+  },
+  {
+   "name": "lip-sync",
+   "category": "AI core",
+   "hint": "mouth with sound waves"
+  },
+  {
+   "name": "ai-generated-label",
+   "category": "AI core",
+   "hint": "tag with sparkle (content credentials)"
+  },
+  {
+   "name": "api-key",
+   "category": "AI core",
+   "hint": "key with `{ }`"
+  },
+  {
+   "name": "rate-limit",
+   "category": "AI core",
+   "hint": "gauge at the red line"
+  },
+  {
+   "name": "usage",
+   "category": "AI core",
+   "hint": "bar meter"
+  },
+  {
+   "name": "credits",
+   "category": "AI core",
+   "hint": "coin with sparkle"
+  },
+  {
+   "name": "latency",
+   "category": "AI core",
+   "hint": "stopwatch with lightning"
+  },
+  {
+   "name": "streaming",
+   "category": "AI core",
+   "hint": "lines appearing with a cursor"
+  },
+  {
+   "name": "stop-generating",
+   "category": "AI core",
+   "hint": "square in a circle"
+  },
+  {
+   "name": "continue-generating",
+   "category": "AI core",
+   "hint": "play with dots"
+  },
+  {
+   "name": "branch-conversation",
+   "category": "AI core",
+   "hint": "git-like branch of bubbles"
+  },
+  {
+   "name": "playground",
+   "category": "AI core",
+   "hint": "sandbox bucket / slide"
+  },
+  {
+   "name": "sandbox",
+   "category": "AI core",
+   "hint": "box with dashed walls"
+  },
+  {
+   "name": "chat",
+   "category": "Chat & conversation",
+   "hint": "single rounded bubble"
+  },
+  {
+   "name": "chat-dots",
+   "category": "Chat & conversation",
+   "hint": "bubble with typing dots"
+  },
+  {
+   "name": "chat-text",
+   "category": "Chat & conversation",
+   "hint": "bubble with lines"
+  },
+  {
+   "name": "chats",
+   "category": "Chat & conversation",
+   "hint": "two overlapping bubbles"
+  },
+  {
+   "name": "chat-new",
+   "category": "Chat & conversation",
+   "hint": "bubble with plus"
+  },
+  {
+   "name": "chat-history",
+   "category": "Chat & conversation",
+   "hint": "bubble with clock"
+  },
+  {
+   "name": "chat-delete",
+   "category": "Chat & conversation",
+   "hint": "bubble with x"
+  },
+  {
+   "name": "chat-off",
+   "category": "Chat & conversation",
+   "hint": "bubble with slash"
+  },
+  {
+   "name": "chat-question",
+   "category": "Chat & conversation",
+   "hint": "bubble with ?"
+  },
+  {
+   "name": "chat-alert",
+   "category": "Chat & conversation",
+   "hint": "bubble with !"
+  },
+  {
+   "name": "chat-check",
+   "category": "Chat & conversation",
+   "hint": "bubble with check"
+  },
+  {
+   "name": "chat-sparkle",
+   "category": "Chat & conversation",
+   "hint": "bubble with sparkle"
+  },
+  {
+   "name": "thread",
+   "category": "Chat & conversation",
+   "hint": "bubble with stacked replies"
+  },
+  {
+   "name": "reply",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "reply-all",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "forward",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "quote",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "mention",
+   "category": "Chat & conversation",
+   "hint": "@"
+  },
+  {
+   "name": "hashtag",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "emoji",
+   "category": "Chat & conversation",
+   "hint": "smiley"
+  },
+  {
+   "name": "emoji-add",
+   "category": "Chat & conversation",
+   "hint": "smiley with plus"
+  },
+  {
+   "name": "reaction",
+   "category": "Chat & conversation",
+   "hint": "heart in bubble"
+  },
+  {
+   "name": "typing",
+   "category": "Chat & conversation",
+   "hint": "three dots"
+  },
+  {
+   "name": "send",
+   "category": "Chat & conversation",
+   "hint": "paper plane"
+  },
+  {
+   "name": "send-horizontal",
+   "category": "Chat & conversation",
+   "hint": "flat arrow plane"
+  },
+  {
+   "name": "attach",
+   "category": "Chat & conversation",
+   "hint": "paperclip"
+  },
+  {
+   "name": "voice-message",
+   "category": "Chat & conversation",
+   "hint": "bubble with waveform"
+  },
+  {
+   "name": "pin",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "pin-off",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "edit-message",
+   "category": "Chat & conversation",
+   "hint": "bubble with pencil"
+  },
+  {
+   "name": "read-receipt",
+   "category": "Chat & conversation",
+   "hint": "double check"
+  },
+  {
+   "name": "unread",
+   "category": "Chat & conversation",
+   "hint": "bubble with dot"
+  },
+  {
+   "name": "thumbs-up",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "thumbs-down",
+   "category": "Chat & conversation",
+   "hint": ""
+  },
+  {
+   "name": "feedback",
+   "category": "Chat & conversation",
+   "hint": "bubble with star"
+  },
+  {
+   "name": "report",
+   "category": "Chat & conversation",
+   "hint": "flag"
+  },
+  {
+   "name": "conversation",
+   "category": "Chat & conversation",
+   "hint": "two people with bubbles"
+  },
+  {
+   "name": "broadcast",
+   "category": "Chat & conversation",
+   "hint": "megaphone"
+  },
+  {
+   "name": "channel",
+   "category": "Chat & conversation",
+   "hint": "# in a box"
+  },
+  {
+   "name": "direct-message",
+   "category": "Chat & conversation",
+   "hint": "person with bubble"
+  },
+  {
+   "name": "group-chat",
+   "category": "Chat & conversation",
+   "hint": "three people with bubble"
+  },
+  {
+   "name": "share-chat",
+   "category": "Chat & conversation",
+   "hint": "bubble with share arrow"
+  },
+  {
+   "name": "export-chat",
+   "category": "Chat & conversation",
+   "hint": "bubble with download arrow"
+  },
+  {
+   "name": "arrow-up",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-up-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-up-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-down-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-down-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevron-up",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevron-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevron-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevron-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevrons-up",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevrons-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevrons-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevrons-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "chevrons-up-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "caret-up",
+   "category": "Navigation & arrows",
+   "hint": "small solid triangle"
+  },
+  {
+   "name": "caret-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "caret-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "caret-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-circle-up",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-circle-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-circle-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-circle-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-up-down",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "arrow-left-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "swap",
+   "category": "Navigation & arrows",
+   "hint": "two opposing horizontal arrows"
+  },
+  {
+   "name": "swap-vertical",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "undo",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "redo",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "refresh",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "rotate-cw",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "rotate-ccw",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "repeat",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "shuffle",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "corner-up-left",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "corner-up-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "corner-down-left",
+   "category": "Navigation & arrows",
+   "hint": "enter/return"
+  },
+  {
+   "name": "corner-down-right",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "move",
+   "category": "Navigation & arrows",
+   "hint": "four-way arrows"
+  },
+  {
+   "name": "expand",
+   "category": "Navigation & arrows",
+   "hint": "arrows to corners"
+  },
+  {
+   "name": "collapse",
+   "category": "Navigation & arrows",
+   "hint": "arrows to center"
+  },
+  {
+   "name": "maximize",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "minimize",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "external-link",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "home",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "back",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "menu",
+   "category": "Navigation & arrows",
+   "hint": "hamburger"
+  },
+  {
+   "name": "menu-dots",
+   "category": "Navigation & arrows",
+   "hint": "horizontal ellipsis"
+  },
+  {
+   "name": "menu-dots-vertical",
+   "category": "Navigation & arrows",
+   "hint": "kebab"
+  },
+  {
+   "name": "grid-menu",
+   "category": "Navigation & arrows",
+   "hint": "3×3 dots (app launcher)"
+  },
+  {
+   "name": "sidebar-open",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "sidebar-close",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "panel-right-open",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "panel-right-close",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "panel-bottom-open",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "breadcrumb",
+   "category": "Navigation & arrows",
+   "hint": "chevron-separated dots"
+  },
+  {
+   "name": "compass",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "navigation",
+   "category": "Navigation & arrows",
+   "hint": "tilted arrow (location pointer)"
+  },
+  {
+   "name": "sign-post",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "log-in",
+   "category": "Navigation & arrows",
+   "hint": "arrow into door"
+  },
+  {
+   "name": "log-out",
+   "category": "Navigation & arrows",
+   "hint": "arrow out of door"
+  },
+  {
+   "name": "first-page",
+   "category": "Navigation & arrows",
+   "hint": "bar with left chevron"
+  },
+  {
+   "name": "last-page",
+   "category": "Navigation & arrows",
+   "hint": "right chevron with bar"
+  },
+  {
+   "name": "scroll-to-top",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "scroll-to-bottom",
+   "category": "Navigation & arrows",
+   "hint": ""
+  },
+  {
+   "name": "plus",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "minus",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "x",
+   "category": "Actions & editing",
+   "hint": "close"
+  },
+  {
+   "name": "check",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "plus-circle",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "minus-circle",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "x-circle",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "check-circle",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "plus-square",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "minus-square",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "x-square",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "check-square",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "edit",
+   "category": "Actions & editing",
+   "hint": "pencil"
+  },
+  {
+   "name": "edit-square",
+   "category": "Actions & editing",
+   "hint": "pencil on box"
+  },
+  {
+   "name": "pen",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "eraser",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "trash",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "trash-restore",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "copy",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "paste",
+   "category": "Actions & editing",
+   "hint": "clipboard"
+  },
+  {
+   "name": "cut",
+   "category": "Actions & editing",
+   "hint": "scissors"
+  },
+  {
+   "name": "duplicate",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "save",
+   "category": "Actions & editing",
+   "hint": "floppy disk"
+  },
+  {
+   "name": "download",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "upload",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "import",
+   "category": "Actions & editing",
+   "hint": "arrow into tray"
+  },
+  {
+   "name": "export",
+   "category": "Actions & editing",
+   "hint": "arrow out of tray"
+  },
+  {
+   "name": "share",
+   "category": "Actions & editing",
+   "hint": "three connected dots"
+  },
+  {
+   "name": "share-ios",
+   "category": "Actions & editing",
+   "hint": "box with up arrow"
+  },
+  {
+   "name": "link",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "unlink",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "bookmark",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "bookmark-add",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "bookmark-check",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "star",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "star-half",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "heart",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "heart-off",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "like",
+   "category": "Actions & editing",
+   "hint": "thumbs up (alias of thumbs-up)"
+  },
+  {
+   "name": "archive",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "unarchive",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "print",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "lock",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "unlock",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "eye",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "eye-off",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "filter",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "filter-off",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "sort-ascending",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "sort-descending",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "sort",
+   "category": "Actions & editing",
+   "hint": "up and down arrows with lines"
+  },
+  {
+   "name": "select",
+   "category": "Actions & editing",
+   "hint": "dashed box with cursor"
+  },
+  {
+   "name": "select-all",
+   "category": "Actions & editing",
+   "hint": "dashed box with check"
+  },
+  {
+   "name": "lasso",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "crop",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "resize",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "flip-horizontal",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "flip-vertical",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-left",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-center",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-right",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-justify",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-top",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-middle",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "align-bottom",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "distribute-horizontal",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "distribute-vertical",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "group",
+   "category": "Actions & editing",
+   "hint": "objects in a dashed box"
+  },
+  {
+   "name": "ungroup",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "layers",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "bring-forward",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "send-backward",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "drag-handle",
+   "category": "Actions & editing",
+   "hint": "six dots"
+  },
+  {
+   "name": "drag-handle-horizontal",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "zoom-in",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "zoom-out",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "fullscreen",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "fullscreen-exit",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "reset",
+   "category": "Actions & editing",
+   "hint": "circular arrow with dot"
+  },
+  {
+   "name": "history",
+   "category": "Actions & editing",
+   "hint": "clock with counter-clockwise arrow"
+  },
+  {
+   "name": "restore",
+   "category": "Actions & editing",
+   "hint": "clock with arrow"
+  },
+  {
+   "name": "tag",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "tags",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "hand",
+   "category": "Actions & editing",
+   "hint": "pan tool"
+  },
+  {
+   "name": "pointer",
+   "category": "Actions & editing",
+   "hint": "mouse cursor"
+  },
+  {
+   "name": "pointer-click",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "touch",
+   "category": "Actions & editing",
+   "hint": "finger tap"
+  },
+  {
+   "name": "power",
+   "category": "Actions & editing",
+   "hint": ""
+  },
+  {
+   "name": "file",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-text",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-plus",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-minus",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-check",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-x",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-search",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-edit",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-lock",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-upload",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-download",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-sparkle",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-code",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-image",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-video",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-audio",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-pdf",
+   "category": "Files & documents",
+   "hint": "file with \"PDF\" bar (letters reduced to a label shape)"
+  },
+  {
+   "name": "file-doc",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-spreadsheet",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-presentation",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-zip",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-json",
+   "category": "Files & documents",
+   "hint": "file with `{ }`"
+  },
+  {
+   "name": "file-csv",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "file-markdown",
+   "category": "Files & documents",
+   "hint": "file with M↓"
+  },
+  {
+   "name": "file-question",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "files",
+   "category": "Files & documents",
+   "hint": "stacked files"
+  },
+  {
+   "name": "folder",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-open",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-plus",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-minus",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-lock",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-upload",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-download",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-sparkle",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "folder-shared",
+   "category": "Files & documents",
+   "hint": "folder with people"
+  },
+  {
+   "name": "folders",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "document",
+   "category": "Files & documents",
+   "hint": "page with lines (long-form)"
+  },
+  {
+   "name": "notebook",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "note",
+   "category": "Files & documents",
+   "hint": "sticky note"
+  },
+  {
+   "name": "notes",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "clipboard",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "clipboard-check",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "clipboard-list",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "book",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "book-open",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "library",
+   "category": "Files & documents",
+   "hint": "books on a shelf"
+  },
+  {
+   "name": "newspaper",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "scroll",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "page-break",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "template",
+   "category": "Files & documents",
+   "hint": "layout wireframe page"
+  },
+  {
+   "name": "attachment",
+   "category": "Files & documents",
+   "hint": "paperclip on file"
+  },
+  {
+   "name": "inbox",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "outbox",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "drive",
+   "category": "Files & documents",
+   "hint": "hard drive"
+  },
+  {
+   "name": "storage",
+   "category": "Files & documents",
+   "hint": "stacked disks"
+  },
+  {
+   "name": "database",
+   "category": "Files & documents",
+   "hint": ""
+  },
+  {
+   "name": "backup",
+   "category": "Files & documents",
+   "hint": "database with circular arrow"
+  },
+  {
+   "name": "image",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "images",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "image-plus",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "image-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "camera",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "camera-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "video",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "video-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "film",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "clapperboard",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "play",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "pause",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "stop",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "record",
+   "category": "Media: image, video, audio",
+   "hint": "filled circle"
+  },
+  {
+   "name": "play-circle",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "pause-circle",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "stop-circle",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "skip-back",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "skip-forward",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "rewind",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "fast-forward",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "replay",
+   "category": "Media: image, video, audio",
+   "hint": "circular arrow with play"
+  },
+  {
+   "name": "loop",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "volume",
+   "category": "Media: image, video, audio",
+   "hint": "speaker"
+  },
+  {
+   "name": "volume-low",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "volume-high",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "volume-mute",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "volume-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "microphone",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "microphone-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "headphones",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "speaker",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "music",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "music-list",
+   "category": "Media: image, video, audio",
+   "hint": "playlist"
+  },
+  {
+   "name": "waveform",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "audio-lines",
+   "category": "Media: image, video, audio",
+   "hint": "equalizer bars"
+  },
+  {
+   "name": "radio-device",
+   "category": "Media: image, video, audio",
+   "hint": "boxy radio with antenna"
+  },
+  {
+   "name": "podcast",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "cast",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "airplay-like",
+   "category": "Media: image, video, audio",
+   "hint": "screen with triangle (generic screen-mirror)"
+  },
+  {
+   "name": "subtitles",
+   "category": "Media: image, video, audio",
+   "hint": "CC box"
+  },
+  {
+   "name": "captions-off",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "screen-record",
+   "category": "Media: image, video, audio",
+   "hint": "monitor with record dot"
+  },
+  {
+   "name": "screenshot",
+   "category": "Media: image, video, audio",
+   "hint": "dashed corners with camera"
+  },
+  {
+   "name": "gallery",
+   "category": "Media: image, video, audio",
+   "hint": "grid of images"
+  },
+  {
+   "name": "slideshow",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "aspect-ratio",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "frame",
+   "category": "Media: image, video, audio",
+   "hint": "crop marks"
+  },
+  {
+   "name": "palette",
+   "category": "Media: image, video, audio",
+   "hint": "paint palette"
+  },
+  {
+   "name": "brush",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "paint-bucket",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "eyedropper",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "color-swatch",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "gradient",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "contrast",
+   "category": "Media: image, video, audio",
+   "hint": "half-filled circle"
+  },
+  {
+   "name": "brightness",
+   "category": "Media: image, video, audio",
+   "hint": "sun"
+  },
+  {
+   "name": "blur",
+   "category": "Media: image, video, audio",
+   "hint": "dotted circle"
+  },
+  {
+   "name": "filter-photo",
+   "category": "Media: image, video, audio",
+   "hint": "overlapping circles"
+  },
+  {
+   "name": "adjustments",
+   "category": "Media: image, video, audio",
+   "hint": "vertical sliders"
+  },
+  {
+   "name": "shapes",
+   "category": "Media: image, video, audio",
+   "hint": "circle, square, triangle"
+  },
+  {
+   "name": "vector-pen",
+   "category": "Media: image, video, audio",
+   "hint": "bezier pen nib"
+  },
+  {
+   "name": "bezier",
+   "category": "Media: image, video, audio",
+   "hint": "curve with handles"
+  },
+  {
+   "name": "text-tool",
+   "category": "Media: image, video, audio",
+   "hint": "\"T\" with cursor"
+  },
+  {
+   "name": "cube",
+   "category": "Media: image, video, audio",
+   "hint": "3D"
+  },
+  {
+   "name": "sphere",
+   "category": "Media: image, video, audio",
+   "hint": ""
+  },
+  {
+   "name": "ar",
+   "category": "Media: image, video, audio",
+   "hint": "cube in scan corners"
+  },
+  {
+   "name": "vr",
+   "category": "Media: image, video, audio",
+   "hint": "headset"
+  },
+  {
+   "name": "animation",
+   "category": "Media: image, video, audio",
+   "hint": "motion ball with trails"
+  },
+  {
+   "name": "timeline",
+   "category": "Media: image, video, audio",
+   "hint": "tracks with playhead"
+  },
+  {
+   "name": "keyframe",
+   "category": "Media: image, video, audio",
+   "hint": "diamond"
+  },
+  {
+   "name": "scissors-film",
+   "category": "Media: image, video, audio",
+   "hint": "trim"
+  },
+  {
+   "name": "type",
+   "category": "Text & formatting",
+   "hint": "\"T\""
+  },
+  {
+   "name": "heading",
+   "category": "Text & formatting",
+   "hint": "\"H\""
+  },
+  {
+   "name": "heading-1",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "heading-2",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "heading-3",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "bold",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "italic",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "underline",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "strikethrough",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "subscript",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "superscript",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "highlight",
+   "category": "Text & formatting",
+   "hint": "marker"
+  },
+  {
+   "name": "text-color",
+   "category": "Text & formatting",
+   "hint": "\"A\" with bar"
+  },
+  {
+   "name": "font-size",
+   "category": "Text & formatting",
+   "hint": "large and small \"A\""
+  },
+  {
+   "name": "font",
+   "category": "Text & formatting",
+   "hint": "\"Aa\""
+  },
+  {
+   "name": "list-bullet",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "list-numbered",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "list-check",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "list-tree",
+   "category": "Text & formatting",
+   "hint": "nested list"
+  },
+  {
+   "name": "indent",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "outdent",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "line-height",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "letter-spacing",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "paragraph",
+   "category": "Text & formatting",
+   "hint": "pilcrow ¶"
+  },
+  {
+   "name": "quote-block",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "code-inline",
+   "category": "Text & formatting",
+   "hint": "backticks"
+  },
+  {
+   "name": "code-block",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "divider",
+   "category": "Text & formatting",
+   "hint": "horizontal rule"
+  },
+  {
+   "name": "table",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "table-add-row",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "table-add-column",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "columns",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "text-wrap",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "text-cursor",
+   "category": "Text & formatting",
+   "hint": "I-beam"
+  },
+  {
+   "name": "spell-check",
+   "category": "Text & formatting",
+   "hint": "\"abc\" with check"
+  },
+  {
+   "name": "word-count",
+   "category": "Text & formatting",
+   "hint": "\"123\" with lines"
+  },
+  {
+   "name": "clear-formatting",
+   "category": "Text & formatting",
+   "hint": "\"T\" with slash"
+  },
+  {
+   "name": "link-text",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "footnote",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "emoji-text",
+   "category": "Text & formatting",
+   "hint": "smiley with text line"
+  },
+  {
+   "name": "math",
+   "category": "Text & formatting",
+   "hint": "√x"
+  },
+  {
+   "name": "sigma",
+   "category": "Text & formatting",
+   "hint": "Σ"
+  },
+  {
+   "name": "function",
+   "category": "Text & formatting",
+   "hint": "ƒ"
+  },
+  {
+   "name": "pi",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "infinity",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "percent",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "equal",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "not-equal",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "divide",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "multiply",
+   "category": "Text & formatting",
+   "hint": ""
+  },
+  {
+   "name": "code",
+   "category": "Code & development",
+   "hint": "`</>`"
+  },
+  {
+   "name": "code-square",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "terminal",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "terminal-square",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "command",
+   "category": "Code & development",
+   "hint": "⌘"
+  },
+  {
+   "name": "brackets",
+   "category": "Code & development",
+   "hint": "`[ ]`"
+  },
+  {
+   "name": "braces",
+   "category": "Code & development",
+   "hint": "`{ }`"
+  },
+  {
+   "name": "variable",
+   "category": "Code & development",
+   "hint": "`(x)`"
+  },
+  {
+   "name": "bug",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "bug-off",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "debug",
+   "category": "Code & development",
+   "hint": "bug with play"
+  },
+  {
+   "name": "git-branch",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "git-commit",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "git-merge",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "git-pull-request",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "git-fork",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "git-compare",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "repository",
+   "category": "Code & development",
+   "hint": "book with branch"
+  },
+  {
+   "name": "diff",
+   "category": "Code & development",
+   "hint": "plus and minus lines"
+  },
+  {
+   "name": "package",
+   "category": "Code & development",
+   "hint": "box"
+  },
+  {
+   "name": "packages",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "npm-like",
+   "category": "Code & development",
+   "hint": "generic package registry box with bars (no logo)"
+  },
+  {
+   "name": "container",
+   "category": "Code & development",
+   "hint": "shipping container"
+  },
+  {
+   "name": "kubernetes-like",
+   "category": "Code & development",
+   "hint": "generic helm wheel (no logo)"
+  },
+  {
+   "name": "server",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "servers",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "cloud-server",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "api",
+   "category": "Code & development",
+   "hint": "plug with brackets"
+  },
+  {
+   "name": "webhook",
+   "category": "Code & development",
+   "hint": "three linked hooks"
+  },
+  {
+   "name": "endpoint",
+   "category": "Code & development",
+   "hint": "dot with arrow"
+  },
+  {
+   "name": "json",
+   "category": "Code & development",
+   "hint": "`{ }` with dots"
+  },
+  {
+   "name": "regex",
+   "category": "Code & development",
+   "hint": "`.*`"
+  },
+  {
+   "name": "query",
+   "category": "Code & development",
+   "hint": "database with magnifier"
+  },
+  {
+   "name": "schema",
+   "category": "Code & development",
+   "hint": "tree of boxes"
+  },
+  {
+   "name": "deploy",
+   "category": "Code & development",
+   "hint": "rocket"
+  },
+  {
+   "name": "build",
+   "category": "Code & development",
+   "hint": "hammer"
+  },
+  {
+   "name": "test-tube",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "flask",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "beaker",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "lint",
+   "category": "Code & development",
+   "hint": "broom"
+  },
+  {
+   "name": "format-code",
+   "category": "Code & development",
+   "hint": "indented lines with a wand"
+  },
+  {
+   "name": "cli",
+   "category": "Code & development",
+   "hint": "`>_`"
+  },
+  {
+   "name": "script",
+   "category": "Code & development",
+   "hint": "scroll with code"
+  },
+  {
+   "name": "log",
+   "category": "Code & development",
+   "hint": "lines with timestamps"
+  },
+  {
+   "name": "monitor-code",
+   "category": "Code & development",
+   "hint": "screen with `</>`"
+  },
+  {
+   "name": "component",
+   "category": "Code & development",
+   "hint": "four diamonds"
+  },
+  {
+   "name": "blocks",
+   "category": "Code & development",
+   "hint": "building blocks"
+  },
+  {
+   "name": "puzzle",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "hierarchy",
+   "category": "Code & development",
+   "hint": "org tree"
+  },
+  {
+   "name": "sitemap",
+   "category": "Code & development",
+   "hint": ""
+  },
+  {
+   "name": "binary",
+   "category": "Code & development",
+   "hint": "1 0 1"
+  },
+  {
+   "name": "hash",
+   "category": "Code & development",
+   "hint": "#"
+  },
+  {
+   "name": "environment",
+   "category": "Code & development",
+   "hint": "leaf with brackets (env vars)"
+  },
+  {
+   "name": "feature-flag",
+   "category": "Code & development",
+   "hint": "flag with toggle"
+  },
+  {
+   "name": "version",
+   "category": "Code & development",
+   "hint": "tag with \"v\""
+  },
+  {
+   "name": "changelog",
+   "category": "Code & development",
+   "hint": "list with dots on a line"
+  },
+  {
+   "name": "docs",
+   "category": "Code & development",
+   "hint": "book with `</>`"
+  },
+  {
+   "name": "sdk",
+   "category": "Code & development",
+   "hint": "box with brackets"
+  },
+  {
+   "name": "cron",
+   "category": "Code & development",
+   "hint": "clock with repeat"
+  },
+  {
+   "name": "queue",
+   "category": "Code & development",
+   "hint": "stacked horizontal bars with arrow"
+  },
+  {
+   "name": "cache",
+   "category": "Code & development",
+   "hint": "lightning on a database"
+  },
+  {
+   "name": "load-balancer",
+   "category": "Code & development",
+   "hint": "one node splitting into three"
+  },
+  {
+   "name": "firewall",
+   "category": "Code & development",
+   "hint": "brick wall with flame"
+  },
+  {
+   "name": "gateway",
+   "category": "Code & development",
+   "hint": "arch"
+  },
+  {
+   "name": "microservices",
+   "category": "Code & development",
+   "hint": "hex cluster"
+  },
+  {
+   "name": "chart-bar",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-bar-horizontal",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-bar-stacked",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-line",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-area",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-pie",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-donut",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-scatter",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-bubble",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-candlestick",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-radar",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-funnel",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-histogram",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-gantt",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "chart-sankey",
+   "category": "Data, charts & analytics",
+   "hint": "flowing bands"
+  },
+  {
+   "name": "chart-treemap",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "heatmap",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "trending-up",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "trending-down",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "trending-flat",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "analytics",
+   "category": "Data, charts & analytics",
+   "hint": "magnifier over chart"
+  },
+  {
+   "name": "dashboard",
+   "category": "Data, charts & analytics",
+   "hint": "tiled panels"
+  },
+  {
+   "name": "gauge",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "kpi",
+   "category": "Data, charts & analytics",
+   "hint": "big number with arrow"
+  },
+  {
+   "name": "metrics",
+   "category": "Data, charts & analytics",
+   "hint": "pulse line"
+  },
+  {
+   "name": "activity",
+   "category": "Data, charts & analytics",
+   "hint": "heartbeat line"
+  },
+  {
+   "name": "target",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "goal",
+   "category": "Data, charts & analytics",
+   "hint": "flag on a hill"
+  },
+  {
+   "name": "report-chart",
+   "category": "Data, charts & analytics",
+   "hint": "document with chart"
+  },
+  {
+   "name": "pivot",
+   "category": "Data, charts & analytics",
+   "hint": "table with rotating arrow"
+  },
+  {
+   "name": "sum",
+   "category": "Data, charts & analytics",
+   "hint": "Σ in a box"
+  },
+  {
+   "name": "calculator",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "abacus",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "table-chart",
+   "category": "Data, charts & analytics",
+   "hint": "grid with chart"
+  },
+  {
+   "name": "spreadsheet",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "filter-funnel",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "forecast",
+   "category": "Data, charts & analytics",
+   "hint": "chart line with dashed future"
+  },
+  {
+   "name": "anomaly",
+   "category": "Data, charts & analytics",
+   "hint": "chart with a highlighted spike"
+  },
+  {
+   "name": "correlation",
+   "category": "Data, charts & analytics",
+   "hint": "two linked scatter dots"
+  },
+  {
+   "name": "distribution",
+   "category": "Data, charts & analytics",
+   "hint": "bell curve"
+  },
+  {
+   "name": "percent-circle",
+   "category": "Data, charts & analytics",
+   "hint": ""
+  },
+  {
+   "name": "ranking",
+   "category": "Data, charts & analytics",
+   "hint": "numbered bars"
+  },
+  {
+   "name": "user",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-circle",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-square",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "users",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-plus",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-minus",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-x",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-check",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-search",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-edit",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-lock",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-cog",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "user-sparkle",
+   "category": "Users & people",
+   "hint": "AI-assisted user"
+  },
+  {
+   "name": "user-group",
+   "category": "Users & people",
+   "hint": "three people"
+  },
+  {
+   "name": "team",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "contact",
+   "category": "Users & people",
+   "hint": "address card"
+  },
+  {
+   "name": "contacts",
+   "category": "Users & people",
+   "hint": "address book"
+  },
+  {
+   "name": "id-card",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "badge",
+   "category": "Users & people",
+   "hint": "employee badge"
+  },
+  {
+   "name": "avatar",
+   "category": "Users & people",
+   "hint": "circle portrait"
+  },
+  {
+   "name": "profile",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-smile",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-neutral",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-sad",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-angry",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-surprised",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-wink",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "face-thinking",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "crown",
+   "category": "Users & people",
+   "hint": "admin/owner"
+  },
+  {
+   "name": "role",
+   "category": "Users & people",
+   "hint": "person with shield"
+  },
+  {
+   "name": "guest",
+   "category": "Users & people",
+   "hint": "person with dotted outline"
+  },
+  {
+   "name": "organization",
+   "category": "Users & people",
+   "hint": "building with people"
+  },
+  {
+   "name": "handshake",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "wave",
+   "category": "Users & people",
+   "hint": "waving hand"
+  },
+  {
+   "name": "invite",
+   "category": "Users & people",
+   "hint": "envelope with plus person"
+  },
+  {
+   "name": "follow",
+   "category": "Users & people",
+   "hint": "person with check"
+  },
+  {
+   "name": "community",
+   "category": "Users & people",
+   "hint": "people in a circle"
+  },
+  {
+   "name": "accessibility",
+   "category": "Users & people",
+   "hint": "universal access figure"
+  },
+  {
+   "name": "baby",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "child",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "person-standing",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "person-walking",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "person-running",
+   "category": "Users & people",
+   "hint": ""
+  },
+  {
+   "name": "shield",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-check",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-x",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-alert",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-lock",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-sparkle",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "shield-off",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "key",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "keys",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "passkey",
+   "category": "Security & privacy",
+   "hint": "person with key"
+  },
+  {
+   "name": "password",
+   "category": "Security & privacy",
+   "hint": "asterisks in a box"
+  },
+  {
+   "name": "fingerprint",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "face-id",
+   "category": "Security & privacy",
+   "hint": "face in corner brackets"
+  },
+  {
+   "name": "two-factor",
+   "category": "Security & privacy",
+   "hint": "phone with check"
+  },
+  {
+   "name": "otp",
+   "category": "Security & privacy",
+   "hint": "numbered boxes"
+  },
+  {
+   "name": "lock-keyhole",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "lock-open",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "safe",
+   "category": "Security & privacy",
+   "hint": "vault"
+  },
+  {
+   "name": "encrypted",
+   "category": "Security & privacy",
+   "hint": "lock with binary"
+  },
+  {
+   "name": "decrypt",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "privacy",
+   "category": "Security & privacy",
+   "hint": "eye with shield"
+  },
+  {
+   "name": "incognito",
+   "category": "Security & privacy",
+   "hint": "hat and glasses"
+  },
+  {
+   "name": "mask-data",
+   "category": "Security & privacy",
+   "hint": "text with asterisks"
+  },
+  {
+   "name": "redact",
+   "category": "Security & privacy",
+   "hint": "black bars over text"
+  },
+  {
+   "name": "consent",
+   "category": "Security & privacy",
+   "hint": "document with check"
+  },
+  {
+   "name": "policy",
+   "category": "Security & privacy",
+   "hint": "document with shield"
+  },
+  {
+   "name": "gdpr-like",
+   "category": "Security & privacy",
+   "hint": "circle of stars with lock (generic)"
+  },
+  {
+   "name": "audit-log",
+   "category": "Security & privacy",
+   "hint": "list with magnifier"
+  },
+  {
+   "name": "access-control",
+   "category": "Security & privacy",
+   "hint": "door with key"
+  },
+  {
+   "name": "permissions",
+   "category": "Security & privacy",
+   "hint": "checklist with lock"
+  },
+  {
+   "name": "verified",
+   "category": "Security & privacy",
+   "hint": "badge check (scalloped seal)"
+  },
+  {
+   "name": "certificate",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "scan-security",
+   "category": "Security & privacy",
+   "hint": "shield with radar"
+  },
+  {
+   "name": "virus",
+   "category": "Security & privacy",
+   "hint": "germ"
+  },
+  {
+   "name": "malware",
+   "category": "Security & privacy",
+   "hint": "bug with skull"
+  },
+  {
+   "name": "spam",
+   "category": "Security & privacy",
+   "hint": "octagon with !"
+  },
+  {
+   "name": "block",
+   "category": "Security & privacy",
+   "hint": "circle with slash"
+  },
+  {
+   "name": "ban",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "warning-shield",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "siren",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "alarm",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "cctv",
+   "category": "Security & privacy",
+   "hint": ""
+  },
+  {
+   "name": "token-secure",
+   "category": "Security & privacy",
+   "hint": "chip with lock"
+  },
+  {
+   "name": "vpn",
+   "category": "Security & privacy",
+   "hint": "globe with lock"
+  },
+  {
+   "name": "info",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "info-circle",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "help",
+   "category": "Status, alerts & feedback",
+   "hint": "? in circle"
+  },
+  {
+   "name": "alert-circle",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "alert-triangle",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "alert-octagon",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "error",
+   "category": "Status, alerts & feedback",
+   "hint": "x in circle"
+  },
+  {
+   "name": "success",
+   "category": "Status, alerts & feedback",
+   "hint": "check in circle"
+  },
+  {
+   "name": "warning",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "bell",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "bell-off",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "bell-ring",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "bell-plus",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "bell-dot",
+   "category": "Status, alerts & feedback",
+   "hint": "bell with unread dot"
+  },
+  {
+   "name": "notification-badge",
+   "category": "Status, alerts & feedback",
+   "hint": "square with corner dot"
+  },
+  {
+   "name": "loader",
+   "category": "Status, alerts & feedback",
+   "hint": "spinning segments"
+  },
+  {
+   "name": "loader-circle",
+   "category": "Status, alerts & feedback",
+   "hint": "open arc"
+  },
+  {
+   "name": "hourglass",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "clock-pending",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "circle-dashed",
+   "category": "Status, alerts & feedback",
+   "hint": "draft/pending"
+  },
+  {
+   "name": "circle-dot",
+   "category": "Status, alerts & feedback",
+   "hint": "active"
+  },
+  {
+   "name": "circle-half",
+   "category": "Status, alerts & feedback",
+   "hint": "in progress"
+  },
+  {
+   "name": "circle-check-filled-partial",
+   "category": "Status, alerts & feedback",
+   "hint": "progress ring"
+  },
+  {
+   "name": "progress",
+   "category": "Status, alerts & feedback",
+   "hint": "horizontal bar"
+  },
+  {
+   "name": "online",
+   "category": "Status, alerts & feedback",
+   "hint": "dot with glow"
+  },
+  {
+   "name": "offline",
+   "category": "Status, alerts & feedback",
+   "hint": "dot with slash"
+  },
+  {
+   "name": "away",
+   "category": "Status, alerts & feedback",
+   "hint": "moon dot"
+  },
+  {
+   "name": "busy",
+   "category": "Status, alerts & feedback",
+   "hint": "dot with minus"
+  },
+  {
+   "name": "new-badge",
+   "category": "Status, alerts & feedback",
+   "hint": "burst shape"
+  },
+  {
+   "name": "beta-badge",
+   "category": "Status, alerts & feedback",
+   "hint": "flask in tag"
+  },
+  {
+   "name": "lightning",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "fire",
+   "category": "Status, alerts & feedback",
+   "hint": "trending/hot"
+  },
+  {
+   "name": "rocket",
+   "category": "Status, alerts & feedback",
+   "hint": "launch"
+  },
+  {
+   "name": "trophy",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "medal",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "award",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "celebrate",
+   "category": "Status, alerts & feedback",
+   "hint": "party popper"
+  },
+  {
+   "name": "gift",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "confetti",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "thumbs-up-circle",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "question-chat",
+   "category": "Status, alerts & feedback",
+   "hint": "bubble with ?"
+  },
+  {
+   "name": "lifebuoy",
+   "category": "Status, alerts & feedback",
+   "hint": "support"
+  },
+  {
+   "name": "bug-report",
+   "category": "Status, alerts & feedback",
+   "hint": "bug with flag"
+  },
+  {
+   "name": "rating",
+   "category": "Status, alerts & feedback",
+   "hint": "five stars"
+  },
+  {
+   "name": "poll",
+   "category": "Status, alerts & feedback",
+   "hint": "bars in bubble"
+  },
+  {
+   "name": "survey",
+   "category": "Status, alerts & feedback",
+   "hint": "clipboard with radio dots"
+  },
+  {
+   "name": "empty-state",
+   "category": "Status, alerts & feedback",
+   "hint": "empty box"
+  },
+  {
+   "name": "inbox-zero",
+   "category": "Status, alerts & feedback",
+   "hint": "tray with check"
+  },
+  {
+   "name": "maintenance",
+   "category": "Status, alerts & feedback",
+   "hint": "wrench and gear"
+  },
+  {
+   "name": "construction",
+   "category": "Status, alerts & feedback",
+   "hint": "cone"
+  },
+  {
+   "name": "ticket",
+   "category": "Status, alerts & feedback",
+   "hint": ""
+  },
+  {
+   "name": "layout",
+   "category": "Layout & UI components",
+   "hint": "header plus sidebar wireframe"
+  },
+  {
+   "name": "layout-grid",
+   "category": "Layout & UI components",
+   "hint": "2×2"
+  },
+  {
+   "name": "layout-list",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-columns",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-rows",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-sidebar-left",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-sidebar-right",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-dashboard",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-masonry",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-kanban",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "layout-split",
+   "category": "Layout & UI components",
+   "hint": "vertical split"
+  },
+  {
+   "name": "layout-split-horizontal",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "window",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "windows",
+   "category": "Layout & UI components",
+   "hint": "stacked windows"
+  },
+  {
+   "name": "app-window",
+   "category": "Layout & UI components",
+   "hint": "window with traffic dots"
+  },
+  {
+   "name": "browser",
+   "category": "Layout & UI components",
+   "hint": "window with URL bar"
+  },
+  {
+   "name": "tab",
+   "category": "Layout & UI components",
+   "hint": "single browser tab"
+  },
+  {
+   "name": "tabs",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "modal",
+   "category": "Layout & UI components",
+   "hint": "window with a smaller window"
+  },
+  {
+   "name": "popover",
+   "category": "Layout & UI components",
+   "hint": "box with pointer"
+  },
+  {
+   "name": "tooltip",
+   "category": "Layout & UI components",
+   "hint": "bubble with arrow"
+  },
+  {
+   "name": "card",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "cards",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "carousel",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "accordion",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "toggle-on",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "toggle-off",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "checkbox",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "checkbox-checked",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "radio-button",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "radio-button-checked",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "slider-horizontal",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "input",
+   "category": "Layout & UI components",
+   "hint": "text field with cursor"
+  },
+  {
+   "name": "textarea",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "dropdown",
+   "category": "Layout & UI components",
+   "hint": "field with caret"
+  },
+  {
+   "name": "button",
+   "category": "Layout & UI components",
+   "hint": "rounded rect with cursor"
+  },
+  {
+   "name": "form",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "stepper",
+   "category": "Layout & UI components",
+   "hint": "1-2-3 dots on a line"
+  },
+  {
+   "name": "pagination",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "toast",
+   "category": "Layout & UI components",
+   "hint": "small bar at the bottom"
+  },
+  {
+   "name": "banner",
+   "category": "Layout & UI components",
+   "hint": "wide strip"
+  },
+  {
+   "name": "skeleton",
+   "category": "Layout & UI components",
+   "hint": "placeholder blocks"
+  },
+  {
+   "name": "spacing",
+   "category": "Layout & UI components",
+   "hint": "arrows between bars"
+  },
+  {
+   "name": "padding",
+   "category": "Layout & UI components",
+   "hint": "box inside a box"
+  },
+  {
+   "name": "border-radius",
+   "category": "Layout & UI components",
+   "hint": "corner arc"
+  },
+  {
+   "name": "grid-lines",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "ruler",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "guide-lines",
+   "category": "Layout & UI components",
+   "hint": ""
+  },
+  {
+   "name": "responsive",
+   "category": "Layout & UI components",
+   "hint": "desktop, tablet, phone"
+  },
+  {
+   "name": "dark-mode",
+   "category": "Layout & UI components",
+   "hint": "moon"
+  },
+  {
+   "name": "light-mode",
+   "category": "Layout & UI components",
+   "hint": "sun"
+  },
+  {
+   "name": "system-theme",
+   "category": "Layout & UI components",
+   "hint": "half sun, half moon"
+  },
+  {
+   "name": "theme",
+   "category": "Layout & UI components",
+   "hint": "paint roller"
+  },
+  {
+   "name": "widget",
+   "category": "Layout & UI components",
+   "hint": "four squares, one rotated"
+  },
+  {
+   "name": "kanban",
+   "category": "Layout & UI components",
+   "hint": "three columns of cards"
+  },
+  {
+   "name": "whiteboard",
+   "category": "Layout & UI components",
+   "hint": "board on stand"
+  },
+  {
+   "name": "canvas",
+   "category": "Layout & UI components",
+   "hint": "easel"
+  },
+  {
+   "name": "frame-plus",
+   "category": "Layout & UI components",
+   "hint": "add frame"
+  },
+  {
+   "name": "settings",
+   "category": "Settings & system",
+   "hint": "gear"
+  },
+  {
+   "name": "settings-sliders",
+   "category": "Settings & system",
+   "hint": "horizontal sliders"
+  },
+  {
+   "name": "cog",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "wrench",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "tools",
+   "category": "Settings & system",
+   "hint": "wrench and screwdriver"
+  },
+  {
+   "name": "hammer",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "screwdriver",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "preferences",
+   "category": "Settings & system",
+   "hint": "gear with person"
+  },
+  {
+   "name": "control-panel",
+   "category": "Settings & system",
+   "hint": "knobs"
+  },
+  {
+   "name": "toggle",
+   "category": "Settings & system",
+   "hint": "switch"
+  },
+  {
+   "name": "keyboard",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "keyboard-shortcut",
+   "category": "Settings & system",
+   "hint": "keycap"
+  },
+  {
+   "name": "mouse",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "gamepad",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "battery",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "battery-charging",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "battery-low",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "battery-full",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "plug",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "power-off",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "restart",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "sleep",
+   "category": "Settings & system",
+   "hint": "Zz"
+  },
+  {
+   "name": "update",
+   "category": "Settings & system",
+   "hint": "circular arrows with down arrow"
+  },
+  {
+   "name": "install",
+   "category": "Settings & system",
+   "hint": "box with down arrow"
+  },
+  {
+   "name": "uninstall",
+   "category": "Settings & system",
+   "hint": "box with x"
+  },
+  {
+   "name": "extension",
+   "category": "Settings & system",
+   "hint": "puzzle with plus"
+  },
+  {
+   "name": "language",
+   "category": "Settings & system",
+   "hint": "globe with \"A\""
+  },
+  {
+   "name": "region",
+   "category": "Settings & system",
+   "hint": "globe with pin"
+  },
+  {
+   "name": "accessibility-settings",
+   "category": "Settings & system",
+   "hint": "figure with gear"
+  },
+  {
+   "name": "notification-settings",
+   "category": "Settings & system",
+   "hint": "bell with gear"
+  },
+  {
+   "name": "privacy-settings",
+   "category": "Settings & system",
+   "hint": "eye with gear"
+  },
+  {
+   "name": "storage-settings",
+   "category": "Settings & system",
+   "hint": "disk with gear"
+  },
+  {
+   "name": "trash-settings",
+   "category": "Settings & system",
+   "hint": "bin with gear"
+  },
+  {
+   "name": "admin",
+   "category": "Settings & system",
+   "hint": "shield with person"
+  },
+  {
+   "name": "logs",
+   "category": "Settings & system",
+   "hint": "scroll with lines"
+  },
+  {
+   "name": "diagnostics",
+   "category": "Settings & system",
+   "hint": "stethoscope"
+  },
+  {
+   "name": "health-check",
+   "category": "Settings & system",
+   "hint": "heart with pulse"
+  },
+  {
+   "name": "uptime",
+   "category": "Settings & system",
+   "hint": "arrow up with pulse"
+  },
+  {
+   "name": "performance",
+   "category": "Settings & system",
+   "hint": "speedometer"
+  },
+  {
+   "name": "memory-chip",
+   "category": "Settings & system",
+   "hint": "RAM stick"
+  },
+  {
+   "name": "temperature-system",
+   "category": "Settings & system",
+   "hint": "thermometer with chip"
+  },
+  {
+   "name": "fan",
+   "category": "Settings & system",
+   "hint": ""
+  },
+  {
+   "name": "monitor",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "laptop",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "desktop",
+   "category": "Devices & hardware",
+   "hint": "tower and monitor"
+  },
+  {
+   "name": "tablet",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "smartphone",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "smartwatch",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "tv",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "printer",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "scanner",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "webcam",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "speaker-device",
+   "category": "Devices & hardware",
+   "hint": "smart speaker"
+  },
+  {
+   "name": "earbuds",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "router",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "usb",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "hard-drive",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "sd-card",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "bluetooth",
+   "category": "Devices & hardware",
+   "hint": "generic rune shape"
+  },
+  {
+   "name": "nfc",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "qr-code",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "barcode",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "scan-qr",
+   "category": "Devices & hardware",
+   "hint": "QR in scan corners"
+  },
+  {
+   "name": "joystick",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "drone",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "robot-arm",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "satellite",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "chip-device",
+   "category": "Devices & hardware",
+   "hint": "IoT board"
+  },
+  {
+   "name": "smart-home",
+   "category": "Devices & hardware",
+   "hint": "house with wifi"
+  },
+  {
+   "name": "lightbulb",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "lightbulb-off",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "flashlight",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "thermostat",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "car",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "ev-charger",
+   "category": "Devices & hardware",
+   "hint": ""
+  },
+  {
+   "name": "cloud",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-upload",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-download",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-check",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-off",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-sync",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-sparkle",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "cloud-lock",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "wifi",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "wifi-off",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "wifi-low",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "signal",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "signal-low",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "antenna",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "globe",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "globe-lock",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "network",
+   "category": "Cloud, network & connectivity",
+   "hint": "three connected nodes"
+  },
+  {
+   "name": "share-network",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "hub",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "node",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "sync",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "sync-off",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "refresh-cloud",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "rss",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "broadcast-tower",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "ethernet",
+   "category": "Cloud, network & connectivity",
+   "hint": ""
+  },
+  {
+   "name": "dns",
+   "category": "Cloud, network & connectivity",
+   "hint": "stacked server rows"
+  },
+  {
+   "name": "ip-address",
+   "category": "Cloud, network & connectivity",
+   "hint": "pin with dots"
+  },
+  {
+   "name": "bandwidth",
+   "category": "Cloud, network & connectivity",
+   "hint": "arrows up and down with bars"
+  },
+  {
+   "name": "offline-mode",
+   "category": "Cloud, network & connectivity",
+   "hint": "plane"
+  },
+  {
+   "name": "mail",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "mail-open",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "mail-plus",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "mail-check",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "mail-sparkle",
+   "category": "Communication",
+   "hint": "AI draft email"
+  },
+  {
+   "name": "mails",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "envelope-send",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone-call",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone-incoming",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone-outgoing",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone-missed",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "phone-off",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "video-call",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "voicemail",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "fax",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "meeting",
+   "category": "Communication",
+   "hint": "people around a table"
+  },
+  {
+   "name": "presentation",
+   "category": "Communication",
+   "hint": "board with chart"
+  },
+  {
+   "name": "screen-share",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "megaphone",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "announcement",
+   "category": "Communication",
+   "hint": "speaker with lines"
+  },
+  {
+   "name": "newsletter",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "comment",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "comments",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "chat-support",
+   "category": "Communication",
+   "hint": "headset with bubble"
+  },
+  {
+   "name": "call-center",
+   "category": "Communication",
+   "hint": "headset person"
+  },
+  {
+   "name": "contact-form",
+   "category": "Communication",
+   "hint": "form with envelope"
+  },
+  {
+   "name": "signature",
+   "category": "Communication",
+   "hint": "pen squiggle on a line"
+  },
+  {
+   "name": "stamp",
+   "category": "Communication",
+   "hint": ""
+  },
+  {
+   "name": "post",
+   "category": "Communication",
+   "hint": "mailbox"
+  },
+  {
+   "name": "calendar",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-plus",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-minus",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-check",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-x",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-clock",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-days",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-range",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "calendar-sparkle",
+   "category": "Time & calendar",
+   "hint": "AI scheduling"
+  },
+  {
+   "name": "clock",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "clock-alert",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "alarm-clock",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "stopwatch",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "timer",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "timer-off",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "hourglass-half",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "schedule",
+   "category": "Time & calendar",
+   "hint": "calendar with list"
+  },
+  {
+   "name": "agenda",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "reminder",
+   "category": "Time & calendar",
+   "hint": "bell with clock"
+  },
+  {
+   "name": "snooze",
+   "category": "Time & calendar",
+   "hint": "clock with Zz"
+  },
+  {
+   "name": "deadline",
+   "category": "Time & calendar",
+   "hint": "flag with clock"
+  },
+  {
+   "name": "recurring",
+   "category": "Time & calendar",
+   "hint": "calendar with repeat arrow"
+  },
+  {
+   "name": "time-zone",
+   "category": "Time & calendar",
+   "hint": "globe with clock"
+  },
+  {
+   "name": "sunrise",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "sunset",
+   "category": "Time & calendar",
+   "hint": ""
+  },
+  {
+   "name": "day",
+   "category": "Time & calendar",
+   "hint": "sun"
+  },
+  {
+   "name": "night",
+   "category": "Time & calendar",
+   "hint": "moon with stars"
+  },
+  {
+   "name": "search",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-plus",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-minus",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-x",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-check",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-code",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-image",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-file",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-user",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "search-history",
+   "category": "Search & discovery",
+   "hint": "magnifier with clock"
+  },
+  {
+   "name": "scan-search",
+   "category": "Search & discovery",
+   "hint": "magnifier in scan corners"
+  },
+  {
+   "name": "explore",
+   "category": "Search & discovery",
+   "hint": "compass"
+  },
+  {
+   "name": "discover",
+   "category": "Search & discovery",
+   "hint": "telescope"
+  },
+  {
+   "name": "binoculars",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "radar",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "map-search",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "trending",
+   "category": "Search & discovery",
+   "hint": "fire with arrow"
+  },
+  {
+   "name": "recommend",
+   "category": "Search & discovery",
+   "hint": "star with sparkle"
+  },
+  {
+   "name": "for-you",
+   "category": "Search & discovery",
+   "hint": "heart with sparkle"
+  },
+  {
+   "name": "filter-search",
+   "category": "Search & discovery",
+   "hint": ""
+  },
+  {
+   "name": "voice-search",
+   "category": "Search & discovery",
+   "hint": "mic with magnifier"
+  },
+  {
+   "name": "visual-search",
+   "category": "Search & discovery",
+   "hint": "camera with magnifier"
+  },
+  {
+   "name": "shopping-cart",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "shopping-bag",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "basket",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "store",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "credit-card",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "wallet",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "receipt",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "invoice",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "coins",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "money",
+   "category": "Commerce, billing & finance",
+   "hint": "banknote"
+  },
+  {
+   "name": "dollar",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "euro",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "pound",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "yen",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "bitcoin-like",
+   "category": "Commerce, billing & finance",
+   "hint": "generic crypto coin"
+  },
+  {
+   "name": "bank",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "piggy-bank",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "cash-register",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "price-tag",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "discount",
+   "category": "Commerce, billing & finance",
+   "hint": "tag with %"
+  },
+  {
+   "name": "coupon",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "gift-card",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "subscription",
+   "category": "Commerce, billing & finance",
+   "hint": "card with repeat"
+  },
+  {
+   "name": "plan",
+   "category": "Commerce, billing & finance",
+   "hint": "layered tiers"
+  },
+  {
+   "name": "upgrade",
+   "category": "Commerce, billing & finance",
+   "hint": "arrow up in a circle with sparkle"
+  },
+  {
+   "name": "pro-badge",
+   "category": "Commerce, billing & finance",
+   "hint": "diamond"
+  },
+  {
+   "name": "diamond",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "refund",
+   "category": "Commerce, billing & finance",
+   "hint": "coin with back arrow"
+  },
+  {
+   "name": "transfer",
+   "category": "Commerce, billing & finance",
+   "hint": "arrows between two coins"
+  },
+  {
+   "name": "payout",
+   "category": "Commerce, billing & finance",
+   "hint": "hand with coin"
+  },
+  {
+   "name": "billing",
+   "category": "Commerce, billing & finance",
+   "hint": "document with currency"
+  },
+  {
+   "name": "budget",
+   "category": "Commerce, billing & finance",
+   "hint": "pie with coin"
+  },
+  {
+   "name": "trend-money",
+   "category": "Commerce, billing & finance",
+   "hint": "coin with arrow up"
+  },
+  {
+   "name": "stock-chart",
+   "category": "Commerce, billing & finance",
+   "hint": ""
+  },
+  {
+   "name": "scale-price",
+   "category": "Commerce, billing & finance",
+   "hint": "balance with coin"
+  },
+  {
+   "name": "checkout",
+   "category": "Commerce, billing & finance",
+   "hint": "cart with check"
+  },
+  {
+   "name": "order",
+   "category": "Commerce, billing & finance",
+   "hint": "box with list"
+  },
+  {
+   "name": "shipping",
+   "category": "Commerce, billing & finance",
+   "hint": "truck"
+  },
+  {
+   "name": "delivery",
+   "category": "Commerce, billing & finance",
+   "hint": "box with motion lines"
+  },
+  {
+   "name": "return-box",
+   "category": "Commerce, billing & finance",
+   "hint": "box with back arrow"
+  },
+  {
+   "name": "map",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "map-pin",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "map-pin-plus",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "map-pin-off",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "pin-drop",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "location",
+   "category": "Location & maps",
+   "hint": "crosshair"
+  },
+  {
+   "name": "location-off",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "route",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "directions",
+   "category": "Location & maps",
+   "hint": "split arrows sign"
+  },
+  {
+   "name": "globe-pin",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "earth",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "building",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "buildings",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "office",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "factory",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "warehouse",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "school",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "hospital",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "landmark",
+   "category": "Location & maps",
+   "hint": "columns"
+  },
+  {
+   "name": "flag",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "parking",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "layers-map",
+   "category": "Location & maps",
+   "hint": ""
+  },
+  {
+   "name": "plane",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "plane-takeoff",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "plane-landing",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "train",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "bus",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "bike",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "scooter",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "ship",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "taxi",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "truck",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "fuel",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "luggage",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "passport",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "ticket-travel",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "hotel",
+   "category": "Transport & travel",
+   "hint": "bed"
+  },
+  {
+   "name": "tent",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "mountain",
+   "category": "Transport & travel",
+   "hint": ""
+  },
+  {
+   "name": "beach",
+   "category": "Transport & travel",
+   "hint": "umbrella"
+  },
+  {
+   "name": "sun",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "moon",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "cloud-sun",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "cloud-rain",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "cloud-snow",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "cloud-lightning",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "cloud-fog",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "wind",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "snowflake",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "umbrella",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "rainbow",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "droplet",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "flame",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "leaf",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "tree",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "flower",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "sprout",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "recycle",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "eco",
+   "category": "Weather & nature",
+   "hint": "leaf with loop"
+  },
+  {
+   "name": "planet",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "star-shooting",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "paw",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "bird",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "fish",
+   "category": "Weather & nature",
+   "hint": ""
+  },
+  {
+   "name": "bug-insect",
+   "category": "Weather & nature",
+   "hint": "ladybug"
+  },
+  {
+   "name": "education",
+   "category": "Domains & use cases",
+   "hint": "graduation cap"
+  },
+  {
+   "name": "learn",
+   "category": "Domains & use cases",
+   "hint": "open book with sparkle"
+  },
+  {
+   "name": "quiz",
+   "category": "Domains & use cases",
+   "hint": "card with ?"
+  },
+  {
+   "name": "flashcards",
+   "category": "Domains & use cases",
+   "hint": ""
+  },
+  {
+   "name": "research",
+   "category": "Domains & use cases",
+   "hint": "microscope"
+  },
+  {
+   "name": "science",
+   "category": "Domains & use cases",
+   "hint": "atom"
+  },
+  {
+   "name": "dna",
+   "category": "Domains & use cases",
+   "hint": ""
+  },
+  {
+   "name": "health",
+   "category": "Domains & use cases",
+   "hint": "heart with plus"
+  },
+  {
+   "name": "medical",
+   "category": "Domains & use cases",
+   "hint": "stethoscope"
+  },
+  {
+   "name": "pill",
+   "category": "Domains & use cases",
+   "hint": ""
+  },
+  {
+   "name": "fitness",
+   "category": "Domains & use cases",
+   "hint": "dumbbell"
+  },
+  {
+   "name": "nutrition",
+   "category": "Domains & use cases",
+   "hint": "apple"
+  },
+  {
+   "name": "mental-health",
+   "category": "Domains & use cases",
+   "hint": "brain with heart"
+  },
+  {
+   "name": "legal",
+   "category": "Domains & use cases",
+   "hint": "gavel"
+  },
+  {
+   "name": "contract",
+   "category": "Domains & use cases",
+   "hint": "document with signature"
+  },
+  {
+   "name": "finance",
+   "category": "Domains & use cases",
+   "hint": "chart with coin"
+  },
+  {
+   "name": "marketing",
+   "category": "Domains & use cases",
+   "hint": "megaphone with sparkle"
+  },
+  {
+   "name": "sales",
+   "category": "Domains & use cases",
+   "hint": "handshake with arrow"
+  },
+  {
+   "name": "hr",
+   "category": "Domains & use cases",
+   "hint": "people with heart"
+  },
+  {
+   "name": "recruiting",
+   "category": "Domains & use cases",
+   "hint": "person with magnifier"
+  },
+  {
+   "name": "writing",
+   "category": "Domains & use cases",
+   "hint": "fountain pen"
+  },
+  {
+   "name": "blog",
+   "category": "Domains & use cases",
+   "hint": "page with pen"
+  },
+  {
+   "name": "storytelling",
+   "category": "Domains & use cases",
+   "hint": "book with sparkle"
+  },
+  {
+   "name": "poetry",
+   "category": "Domains & use cases",
+   "hint": "quill"
+  },
+  {
+   "name": "design",
+   "category": "Domains & use cases",
+   "hint": "pen tool with ruler"
+  },
+  {
+   "name": "photography",
+   "category": "Domains & use cases",
+   "hint": "camera with lens"
+  },
+  {
+   "name": "music-production",
+   "category": "Domains & use cases",
+   "hint": "sliders with note"
+  },
+  {
+   "name": "gaming",
+   "category": "Domains & use cases",
+   "hint": "controller"
+  },
+  {
+   "name": "cooking",
+   "category": "Domains & use cases",
+   "hint": "chef hat"
+  },
+  {
+   "name": "food",
+   "category": "Domains & use cases",
+   "hint": "fork and knife"
+  },
+  {
+   "name": "coffee",
+   "category": "Domains & use cases",
+   "hint": ""
+  },
+  {
+   "name": "travel",
+   "category": "Domains & use cases",
+   "hint": "suitcase"
+  },
+  {
+   "name": "real-estate",
+   "category": "Domains & use cases",
+   "hint": "house with tag"
+  },
+  {
+   "name": "home-life",
+   "category": "Domains & use cases",
+   "hint": "house with heart"
+  },
+  {
+   "name": "parenting",
+   "category": "Domains & use cases",
+   "hint": "adult and child"
+  },
+  {
+   "name": "pets",
+   "category": "Domains & use cases",
+   "hint": "paw"
+  },
+  {
+   "name": "sports",
+   "category": "Domains & use cases",
+   "hint": "ball"
+  },
+  {
+   "name": "fashion",
+   "category": "Domains & use cases",
+   "hint": "hanger"
+  },
+  {
+   "name": "beauty",
+   "category": "Domains & use cases",
+   "hint": "lipstick"
+  },
+  {
+   "name": "art",
+   "category": "Domains & use cases",
+   "hint": "palette with brush"
+  },
+  {
+   "name": "history-topic",
+   "category": "Domains & use cases",
+   "hint": "column"
+  },
+  {
+   "name": "philosophy",
+   "category": "Domains & use cases",
+   "hint": "thinker bust"
+  },
+  {
+   "name": "religion",
+   "category": "Domains & use cases",
+   "hint": "candle"
+  },
+  {
+   "name": "politics",
+   "category": "Domains & use cases",
+   "hint": "ballot box"
+  },
+  {
+   "name": "news",
+   "category": "Domains & use cases",
+   "hint": "newspaper"
+  },
+  {
+   "name": "productivity",
+   "category": "Domains & use cases",
+   "hint": "checkmark with lightning"
+  },
+  {
+   "name": "brainstorm",
+   "category": "Domains & use cases",
+   "hint": "lightbulb cluster"
+  },
+  {
+   "name": "strategy",
+   "category": "Domains & use cases",
+   "hint": "chess knight"
+  },
+  {
+   "name": "decision",
+   "category": "Domains & use cases",
+   "hint": "fork in the road"
+  },
+  {
+   "name": "customer-support",
+   "category": "Domains & use cases",
+   "hint": "headset"
+  },
+  {
+   "name": "engineering",
+   "category": "Domains & use cases",
+   "hint": "gear with ruler"
+  },
+  {
+   "name": "data-science",
+   "category": "Domains & use cases",
+   "hint": "chart with brain"
+  },
+  {
+   "name": "security-topic",
+   "category": "Domains & use cases",
+   "hint": "lock with shield"
+  },
+  {
+   "name": "ecommerce",
+   "category": "Domains & use cases",
+   "hint": "bag with cursor"
+  },
+  {
+   "name": "social-media",
+   "category": "Domains & use cases",
+   "hint": "heart, bubble, share cluster"
+  },
+  {
+   "name": "circle",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "square",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "triangle",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "hexagon",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "octagon",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "pentagon",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "diamond-shape",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "dot",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "asterisk",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "at",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "ampersand",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "question",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "exclamation",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "copyright",
+   "category": "Misc & symbols",
+   "hint": "© (generic symbol, not a logo)"
+  },
+  {
+   "name": "trademark",
+   "category": "Misc & symbols",
+   "hint": "™ symbol"
+  },
+  {
+   "name": "registered",
+   "category": "Misc & symbols",
+   "hint": "® symbol"
+  },
+  {
+   "name": "open-source",
+   "category": "Misc & symbols",
+   "hint": "generic open circle mark (no OSI logo)"
+  },
+  {
+   "name": "license",
+   "category": "Misc & symbols",
+   "hint": "scroll with seal"
+  },
+  {
+   "name": "ai-chip-badge",
+   "category": "Misc & symbols",
+   "hint": "\"AI\" glyph inside a rounded square (only lettered icon)"
+  },
+  {
+   "name": "beta",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "lab",
+   "category": "Misc & symbols",
+   "hint": "flask with sparkle (experimental features)"
+  },
+  {
+   "name": "infinity-loop",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "atom",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "compass-rose",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "anchor",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "key-hole",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "puzzle-piece",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "bolt-circle",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "hand-pointing",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "hand-stop",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "hand-peace",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "hand-heart",
+   "category": "Misc & symbols",
+   "hint": ""
+  },
+  {
+   "name": "cursor-sparkle",
+   "category": "Misc & symbols",
+   "hint": "AI pointer"
+  },
+  {
+   "name": "placeholder",
+   "category": "Misc & symbols",
+   "hint": "dashed square with an x"
+  }
+ ]
+}

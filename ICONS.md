@@ -1,0 +1,1242 @@
+# AI App Icon Pack — Master List
+
+Each line is `name` — drawing hint. The name is the filename (`outline/name.svg`, `filled/name.svg`, `png/<size>/<style>/name.png`).
+No hint means the icon is the obvious drawing.
+
+## Proposed spec (to confirm before drawing)
+- Grid: 24×24 viewBox, 2px safe padding, 20×20 live area
+- Outline: 1.75px stroke, round caps and joins, `stroke="currentColor"`, no fill
+- Filled: solid `fill="currentColor"`, with inner details cut out (knockout) so they stay readable
+- PNG export: 16, 24, 32, 48, 64, 128, 256, 512 px — black on transparent (plus a white set for dark mode)
+- No brand or third-party logos (trademark issues). Generic stand-ins only
+
+---
+
+## 1. AI core
+- `sparkle` — single 4-point star
+- `sparkles` — one large and two small 4-point stars (the "AI" mark)
+- `magic-wand`
+- `wand-sparkles` — wand with sparkles at the tip
+- `brain`
+- `brain-circuit` — half brain, half circuit traces
+- `robot` — full robot head with antenna
+- `bot` — friendly rounded bot face
+- `bot-message` — bot inside a chat bubble
+- `assistant` — person silhouette with sparkle
+- `agent` — bot with a circular loop arrow
+- `agents` — three bots / multi-agent
+- `cpu`
+- `gpu` — card with fan
+- `chip-sparkle` — chip with sparkle in center
+- `neural-network` — layered nodes with edges
+- `model` — cube with sparkle
+- `model-switch` — two cubes with swap arrows
+- `compare-models` — two cubes with a vs. divider
+- `prompt` — box with `>` and a cursor
+- `prompt-library` — stacked prompt cards
+- `prompt-template` — card with `{ }`
+- `system-prompt` — prompt box with a gear
+- `context-window` — brackets around text lines
+- `tokens` — stacked hex chips
+- `temperature` — thermometer
+- `embedding` — dots scattered in 3D axes
+- `vector` — arrow from the origin on axes
+- `vector-database` — cylinder with dots
+- `knowledge-base` — book with sparkle
+- `retrieval` — document with an arrow pulling out (RAG)
+- `memory` — brain with bookmark
+- `memory-off` — memory with slash
+- `thinking` — thought bubble with three dots
+- `reasoning` — lightbulb with gear
+- `chain-of-thought` — linked nodes in a chain
+- `planning` — checklist with sparkle
+- `tool-use` — wrench with sparkle
+- `function-call` — `f(x)`
+- `plugin` — puzzle piece
+- `connector` — two plugs joining
+- `mcp-server` — server with plug
+- `workflow` — three nodes in a flow with arrows
+- `pipeline` — horizontal staged pipe
+- `orchestration` — hub node with spokes
+- `fine-tune` — sliders with sparkle
+- `training` — brain with circular arrow
+- `dataset` — stacked table sheets
+- `data-labeling` — tag on a data row
+- `inference` — arrow passing through a cube
+- `evaluation` — clipboard with check and sparkle
+- `benchmark` — gauge with a bar
+- `leaderboard` — podium 1-2-3
+- `hallucination` — cloud with question mark
+- `guardrails` — road barrier
+- `ai-safety` — shield with sparkle
+- `alignment` — target with aligned arrows
+- `bias` — balance scale
+- `explainability` — magnifier over network nodes
+- `confidence` — semicircle gauge with needle
+- `seed` — sprouting seed
+- `variations` — 2×2 grid with sparkle
+- `regenerate` — circular arrow with sparkle
+- `improve` — wand over text lines
+- `autocomplete` — text line with a ghost continuation
+- `suggestion` — lightbulb
+- `ai-search` — magnifier with sparkle
+- `deep-research` — magnifier over stacked layers
+- `web-browse` — globe with cursor
+- `computer-use` — monitor with cursor and sparkle
+- `code-interpreter` — terminal with play triangle
+- `multimodal` — text, image, and wave glyphs merged
+- `vision` — eye inside scan corners
+- `scan` — four scan corners
+- `ocr` — scan corners around a "T"
+- `face-detect` — face inside scan corners
+- `object-detect` — bounding box with label tab
+- `segmentation` — shape with dashed mask outline
+- `pose-detect` — stick figure with joint dots
+- `upscale` — small square to large with diagonal arrow
+- `inpaint` — image with brush over a masked area
+- `outpaint` — image with dashed expansion border
+- `remove-background` — person over a checkerboard
+- `style-transfer` — brush with arrow between two frames
+- `image-generate` — image frame with sparkle
+- `video-generate` — film frame with sparkle
+- `audio-generate` — waveform with sparkle
+- `music-generate` — note with sparkle
+- `3d-generate` — cube wireframe with sparkle
+- `code-generate` — `</>` with sparkle
+- `text-generate` — text lines with sparkle
+- `voice-clone` — two overlapping heads with waves
+- `text-to-speech` — "T" with arrow to sound waves
+- `speech-to-text` — waves with arrow to "T"
+- `transcribe` — mic with text lines
+- `translate` — "A" and a glyph with swap arrows
+- `summarize` — long lines to short lines
+- `rewrite` — pencil with circular arrow
+- `expand-text` — lines with outward arrows
+- `shorten-text` — lines with inward arrows
+- `change-tone` — speech bubble with a dial
+- `explain` — lightbulb with question mark
+- `classify` — items sorting into bins
+- `extract` — document with arrow out of a box
+- `sentiment` — smile and frown halves
+- `ai-avatar` — portrait with sparkle
+- `persona` — mask
+- `digital-human` — head with circuit lines
+- `lip-sync` — mouth with sound waves
+- `ai-generated-label` — tag with sparkle (content credentials)
+- `api-key` — key with `{ }`
+- `rate-limit` — gauge at the red line
+- `usage` — bar meter
+- `credits` — coin with sparkle
+- `latency` — stopwatch with lightning
+- `streaming` — lines appearing with a cursor
+- `stop-generating` — square in a circle
+- `continue-generating` — play with dots
+- `branch-conversation` — git-like branch of bubbles
+- `playground` — sandbox bucket / slide
+- `sandbox` — box with dashed walls
+
+## 2. Chat & conversation
+- `chat` — single rounded bubble
+- `chat-dots` — bubble with typing dots
+- `chat-text` — bubble with lines
+- `chats` — two overlapping bubbles
+- `chat-new` — bubble with plus
+- `chat-history` — bubble with clock
+- `chat-delete` — bubble with x
+- `chat-off` — bubble with slash
+- `chat-question` — bubble with ?
+- `chat-alert` — bubble with !
+- `chat-check` — bubble with check
+- `chat-sparkle` — bubble with sparkle
+- `thread` — bubble with stacked replies
+- `reply`
+- `reply-all`
+- `forward`
+- `quote`
+- `mention` — @
+- `hashtag`
+- `emoji` — smiley
+- `emoji-add` — smiley with plus
+- `reaction` — heart in bubble
+- `typing` — three dots
+- `send` — paper plane
+- `send-horizontal` — flat arrow plane
+- `attach` — paperclip
+- `voice-message` — bubble with waveform
+- `pin`
+- `pin-off`
+- `edit-message` — bubble with pencil
+- `read-receipt` — double check
+- `unread` — bubble with dot
+- `thumbs-up`
+- `thumbs-down`
+- `feedback` — bubble with star
+- `report` — flag
+- `conversation` — two people with bubbles
+- `broadcast` — megaphone
+- `channel` — # in a box
+- `direct-message` — person with bubble
+- `group-chat` — three people with bubble
+- `share-chat` — bubble with share arrow
+- `export-chat` — bubble with download arrow
+
+## 3. Navigation & arrows
+- `arrow-up`
+- `arrow-down`
+- `arrow-left`
+- `arrow-right`
+- `arrow-up-right`
+- `arrow-up-left`
+- `arrow-down-right`
+- `arrow-down-left`
+- `chevron-up`
+- `chevron-down`
+- `chevron-left`
+- `chevron-right`
+- `chevrons-up`
+- `chevrons-down`
+- `chevrons-left`
+- `chevrons-right`
+- `chevrons-up-down`
+- `caret-up` — small solid triangle
+- `caret-down`
+- `caret-left`
+- `caret-right`
+- `arrow-circle-up`
+- `arrow-circle-down`
+- `arrow-circle-left`
+- `arrow-circle-right`
+- `arrow-up-down`
+- `arrow-left-right`
+- `swap` — two opposing horizontal arrows
+- `swap-vertical`
+- `undo`
+- `redo`
+- `refresh`
+- `rotate-cw`
+- `rotate-ccw`
+- `repeat`
+- `shuffle`
+- `corner-up-left`
+- `corner-up-right`
+- `corner-down-left` — enter/return
+- `corner-down-right`
+- `move` — four-way arrows
+- `expand` — arrows to corners
+- `collapse` — arrows to center
+- `maximize`
+- `minimize`
+- `external-link`
+- `home`
+- `back`
+- `menu` — hamburger
+- `menu-dots` — horizontal ellipsis
+- `menu-dots-vertical` — kebab
+- `grid-menu` — 3×3 dots (app launcher)
+- `sidebar-open`
+- `sidebar-close`
+- `panel-right-open`
+- `panel-right-close`
+- `panel-bottom-open`
+- `breadcrumb` — chevron-separated dots
+- `compass`
+- `navigation` — tilted arrow (location pointer)
+- `sign-post`
+- `log-in` — arrow into door
+- `log-out` — arrow out of door
+- `first-page` — bar with left chevron
+- `last-page` — right chevron with bar
+- `scroll-to-top`
+- `scroll-to-bottom`
+
+## 4. Actions & editing
+- `plus`
+- `minus`
+- `x` — close
+- `check`
+- `plus-circle`
+- `minus-circle`
+- `x-circle`
+- `check-circle`
+- `plus-square`
+- `minus-square`
+- `x-square`
+- `check-square`
+- `edit` — pencil
+- `edit-square` — pencil on box
+- `pen`
+- `eraser`
+- `trash`
+- `trash-restore`
+- `copy`
+- `paste` — clipboard
+- `cut` — scissors
+- `duplicate`
+- `save` — floppy disk
+- `download`
+- `upload`
+- `import` — arrow into tray
+- `export` — arrow out of tray
+- `share` — three connected dots
+- `share-ios` — box with up arrow
+- `link`
+- `unlink`
+- `bookmark`
+- `bookmark-add`
+- `bookmark-check`
+- `star`
+- `star-half`
+- `heart`
+- `heart-off`
+- `like` — thumbs up (alias of thumbs-up)
+- `archive`
+- `unarchive`
+- `print`
+- `lock`
+- `unlock`
+- `eye`
+- `eye-off`
+- `filter`
+- `filter-off`
+- `sort-ascending`
+- `sort-descending`
+- `sort` — up and down arrows with lines
+- `select` — dashed box with cursor
+- `select-all` — dashed box with check
+- `lasso`
+- `crop`
+- `resize`
+- `flip-horizontal`
+- `flip-vertical`
+- `align-left`
+- `align-center`
+- `align-right`
+- `align-justify`
+- `align-top`
+- `align-middle`
+- `align-bottom`
+- `distribute-horizontal`
+- `distribute-vertical`
+- `group` — objects in a dashed box
+- `ungroup`
+- `layers`
+- `bring-forward`
+- `send-backward`
+- `drag-handle` — six dots
+- `drag-handle-horizontal`
+- `zoom-in`
+- `zoom-out`
+- `fullscreen`
+- `fullscreen-exit`
+- `reset` — circular arrow with dot
+- `history` — clock with counter-clockwise arrow
+- `restore` — clock with arrow
+- `tag`
+- `tags`
+- `hand` — pan tool
+- `pointer` — mouse cursor
+- `pointer-click`
+- `touch` — finger tap
+- `power`
+
+## 5. Files & documents
+- `file`
+- `file-text`
+- `file-plus`
+- `file-minus`
+- `file-check`
+- `file-x`
+- `file-search`
+- `file-edit`
+- `file-lock`
+- `file-upload`
+- `file-download`
+- `file-sparkle`
+- `file-code`
+- `file-image`
+- `file-video`
+- `file-audio`
+- `file-pdf` — file with "PDF" bar (letters reduced to a label shape)
+- `file-doc`
+- `file-spreadsheet`
+- `file-presentation`
+- `file-zip`
+- `file-json` — file with `{ }`
+- `file-csv`
+- `file-markdown` — file with M↓
+- `file-question`
+- `files` — stacked files
+- `folder`
+- `folder-open`
+- `folder-plus`
+- `folder-minus`
+- `folder-lock`
+- `folder-upload`
+- `folder-download`
+- `folder-sparkle`
+- `folder-shared` — folder with people
+- `folders`
+- `document` — page with lines (long-form)
+- `notebook`
+- `note` — sticky note
+- `notes`
+- `clipboard`
+- `clipboard-check`
+- `clipboard-list`
+- `book`
+- `book-open`
+- `library` — books on a shelf
+- `newspaper`
+- `scroll`
+- `page-break`
+- `template` — layout wireframe page
+- `attachment` — paperclip on file
+- `inbox`
+- `outbox`
+- `drive` — hard drive
+- `storage` — stacked disks
+- `database`
+- `backup` — database with circular arrow
+
+## 6. Media: image, video, audio
+- `image`
+- `images`
+- `image-plus`
+- `image-off`
+- `camera`
+- `camera-off`
+- `video`
+- `video-off`
+- `film`
+- `clapperboard`
+- `play`
+- `pause`
+- `stop`
+- `record` — filled circle
+- `play-circle`
+- `pause-circle`
+- `stop-circle`
+- `skip-back`
+- `skip-forward`
+- `rewind`
+- `fast-forward`
+- `replay` — circular arrow with play
+- `loop`
+- `volume` — speaker
+- `volume-low`
+- `volume-high`
+- `volume-mute`
+- `volume-off`
+- `microphone`
+- `microphone-off`
+- `headphones`
+- `speaker`
+- `music`
+- `music-list` — playlist
+- `waveform`
+- `audio-lines` — equalizer bars
+- `radio-device` — boxy radio with antenna
+- `podcast`
+- `cast`
+- `airplay-like` — screen with triangle (generic screen-mirror)
+- `subtitles` — CC box
+- `captions-off`
+- `screen-record` — monitor with record dot
+- `screenshot` — dashed corners with camera
+- `gallery` — grid of images
+- `slideshow`
+- `aspect-ratio`
+- `frame` — crop marks
+- `palette` — paint palette
+- `brush`
+- `paint-bucket`
+- `eyedropper`
+- `color-swatch`
+- `gradient`
+- `contrast` — half-filled circle
+- `brightness` — sun
+- `blur` — dotted circle
+- `filter-photo` — overlapping circles
+- `adjustments` — vertical sliders
+- `shapes` — circle, square, triangle
+- `vector-pen` — bezier pen nib
+- `bezier` — curve with handles
+- `text-tool` — "T" with cursor
+- `cube` — 3D
+- `sphere`
+- `ar` — cube in scan corners
+- `vr` — headset
+- `animation` — motion ball with trails
+- `timeline` — tracks with playhead
+- `keyframe` — diamond
+- `scissors-film` — trim
+
+## 7. Text & formatting
+- `type` — "T"
+- `heading` — "H"
+- `heading-1`
+- `heading-2`
+- `heading-3`
+- `bold`
+- `italic`
+- `underline`
+- `strikethrough`
+- `subscript`
+- `superscript`
+- `highlight` — marker
+- `text-color` — "A" with bar
+- `font-size` — large and small "A"
+- `font` — "Aa"
+- `list-bullet`
+- `list-numbered`
+- `list-check`
+- `list-tree` — nested list
+- `indent`
+- `outdent`
+- `line-height`
+- `letter-spacing`
+- `paragraph` — pilcrow ¶
+- `quote-block`
+- `code-inline` — backticks
+- `code-block`
+- `divider` — horizontal rule
+- `table`
+- `table-add-row`
+- `table-add-column`
+- `columns`
+- `text-wrap`
+- `text-cursor` — I-beam
+- `spell-check` — "abc" with check
+- `word-count` — "123" with lines
+- `clear-formatting` — "T" with slash
+- `link-text`
+- `footnote`
+- `emoji-text` — smiley with text line
+- `math` — √x
+- `sigma` — Σ
+- `function` — ƒ
+- `pi`
+- `infinity`
+- `percent`
+- `equal`
+- `not-equal`
+- `divide`
+- `multiply`
+
+## 8. Code & development
+- `code` — `</>`
+- `code-square`
+- `terminal`
+- `terminal-square`
+- `command` — ⌘
+- `brackets` — `[ ]`
+- `braces` — `{ }`
+- `variable` — `(x)`
+- `bug`
+- `bug-off`
+- `debug` — bug with play
+- `git-branch`
+- `git-commit`
+- `git-merge`
+- `git-pull-request`
+- `git-fork`
+- `git-compare`
+- `repository` — book with branch
+- `diff` — plus and minus lines
+- `package` — box
+- `packages`
+- `npm-like` — generic package registry box with bars (no logo)
+- `container` — shipping container
+- `kubernetes-like` — generic helm wheel (no logo)
+- `server`
+- `servers`
+- `cloud-server`
+- `api` — plug with brackets
+- `webhook` — three linked hooks
+- `endpoint` — dot with arrow
+- `json` — `{ }` with dots
+- `regex` — `.*`
+- `query` — database with magnifier
+- `schema` — tree of boxes
+- `deploy` — rocket
+- `build` — hammer
+- `test-tube`
+- `flask`
+- `beaker`
+- `lint` — broom
+- `format-code` — indented lines with a wand
+- `cli` — `>_`
+- `script` — scroll with code
+- `log` — lines with timestamps
+- `monitor-code` — screen with `</>`
+- `component` — four diamonds
+- `blocks` — building blocks
+- `puzzle`
+- `hierarchy` — org tree
+- `sitemap`
+- `binary` — 1 0 1
+- `hash` — #
+- `environment` — leaf with brackets (env vars)
+- `feature-flag` — flag with toggle
+- `version` — tag with "v"
+- `changelog` — list with dots on a line
+- `docs` — book with `</>`
+- `sdk` — box with brackets
+- `cron` — clock with repeat
+- `queue` — stacked horizontal bars with arrow
+- `cache` — lightning on a database
+- `load-balancer` — one node splitting into three
+- `firewall` — brick wall with flame
+- `gateway` — arch
+- `microservices` — hex cluster
+
+## 9. Data, charts & analytics
+- `chart-bar`
+- `chart-bar-horizontal`
+- `chart-bar-stacked`
+- `chart-line`
+- `chart-area`
+- `chart-pie`
+- `chart-donut`
+- `chart-scatter`
+- `chart-bubble`
+- `chart-candlestick`
+- `chart-radar`
+- `chart-funnel`
+- `chart-histogram`
+- `chart-gantt`
+- `chart-sankey` — flowing bands
+- `chart-treemap`
+- `heatmap`
+- `trending-up`
+- `trending-down`
+- `trending-flat`
+- `analytics` — magnifier over chart
+- `dashboard` — tiled panels
+- `gauge`
+- `kpi` — big number with arrow
+- `metrics` — pulse line
+- `activity` — heartbeat line
+- `target`
+- `goal` — flag on a hill
+- `report-chart` — document with chart
+- `pivot` — table with rotating arrow
+- `sum` — Σ in a box
+- `calculator`
+- `abacus`
+- `table-chart` — grid with chart
+- `spreadsheet`
+- `filter-funnel`
+- `forecast` — chart line with dashed future
+- `anomaly` — chart with a highlighted spike
+- `correlation` — two linked scatter dots
+- `distribution` — bell curve
+- `percent-circle`
+- `ranking` — numbered bars
+
+## 10. Users & people
+- `user`
+- `user-circle`
+- `user-square`
+- `users`
+- `user-plus`
+- `user-minus`
+- `user-x`
+- `user-check`
+- `user-search`
+- `user-edit`
+- `user-lock`
+- `user-cog`
+- `user-sparkle` — AI-assisted user
+- `user-group` — three people
+- `team`
+- `contact` — address card
+- `contacts` — address book
+- `id-card`
+- `badge` — employee badge
+- `avatar` — circle portrait
+- `profile`
+- `face-smile`
+- `face-neutral`
+- `face-sad`
+- `face-angry`
+- `face-surprised`
+- `face-wink`
+- `face-thinking`
+- `crown` — admin/owner
+- `role` — person with shield
+- `guest` — person with dotted outline
+- `organization` — building with people
+- `handshake`
+- `wave` — waving hand
+- `invite` — envelope with plus person
+- `follow` — person with check
+- `community` — people in a circle
+- `accessibility` — universal access figure
+- `baby`
+- `child`
+- `person-standing`
+- `person-walking`
+- `person-running`
+
+## 11. Security & privacy
+- `shield`
+- `shield-check`
+- `shield-x`
+- `shield-alert`
+- `shield-lock`
+- `shield-sparkle`
+- `shield-off`
+- `key`
+- `keys`
+- `passkey` — person with key
+- `password` — asterisks in a box
+- `fingerprint`
+- `face-id` — face in corner brackets
+- `two-factor` — phone with check
+- `otp` — numbered boxes
+- `lock-keyhole`
+- `lock-open`
+- `safe` — vault
+- `encrypted` — lock with binary
+- `decrypt`
+- `privacy` — eye with shield
+- `incognito` — hat and glasses
+- `mask-data` — text with asterisks
+- `redact` — black bars over text
+- `consent` — document with check
+- `policy` — document with shield
+- `gdpr-like` — circle of stars with lock (generic)
+- `audit-log` — list with magnifier
+- `access-control` — door with key
+- `permissions` — checklist with lock
+- `verified` — badge check (scalloped seal)
+- `certificate`
+- `scan-security` — shield with radar
+- `virus` — germ
+- `malware` — bug with skull
+- `spam` — octagon with !
+- `block` — circle with slash
+- `ban`
+- `warning-shield`
+- `siren`
+- `alarm`
+- `cctv`
+- `token-secure` — chip with lock
+- `vpn` — globe with lock
+
+## 12. Status, alerts & feedback
+- `info`
+- `info-circle`
+- `help` — ? in circle
+- `alert-circle`
+- `alert-triangle`
+- `alert-octagon`
+- `error` — x in circle
+- `success` — check in circle
+- `warning`
+- `bell`
+- `bell-off`
+- `bell-ring`
+- `bell-plus`
+- `bell-dot` — bell with unread dot
+- `notification-badge` — square with corner dot
+- `loader` — spinning segments
+- `loader-circle` — open arc
+- `hourglass`
+- `clock-pending`
+- `circle-dashed` — draft/pending
+- `circle-dot` — active
+- `circle-half` — in progress
+- `circle-check-filled-partial` — progress ring
+- `progress` — horizontal bar
+- `online` — dot with glow
+- `offline` — dot with slash
+- `away` — moon dot
+- `busy` — dot with minus
+- `new-badge` — burst shape
+- `beta-badge` — flask in tag
+- `lightning`
+- `fire` — trending/hot
+- `rocket` — launch
+- `trophy`
+- `medal`
+- `award`
+- `celebrate` — party popper
+- `gift`
+- `confetti`
+- `thumbs-up-circle`
+- `question-chat` — bubble with ?
+- `lifebuoy` — support
+- `bug-report` — bug with flag
+- `rating` — five stars
+- `poll` — bars in bubble
+- `survey` — clipboard with radio dots
+- `empty-state` — empty box
+- `inbox-zero` — tray with check
+- `maintenance` — wrench and gear
+- `construction` — cone
+- `ticket`
+
+## 13. Layout & UI components
+- `layout` — header plus sidebar wireframe
+- `layout-grid` — 2×2
+- `layout-list`
+- `layout-columns`
+- `layout-rows`
+- `layout-sidebar-left`
+- `layout-sidebar-right`
+- `layout-dashboard`
+- `layout-masonry`
+- `layout-kanban`
+- `layout-split` — vertical split
+- `layout-split-horizontal`
+- `window`
+- `windows` — stacked windows
+- `app-window` — window with traffic dots
+- `browser` — window with URL bar
+- `tab` — single browser tab
+- `tabs`
+- `modal` — window with a smaller window
+- `popover` — box with pointer
+- `tooltip` — bubble with arrow
+- `card`
+- `cards`
+- `carousel`
+- `accordion`
+- `toggle-on`
+- `toggle-off`
+- `checkbox`
+- `checkbox-checked`
+- `radio-button`
+- `radio-button-checked`
+- `slider-horizontal`
+- `input` — text field with cursor
+- `textarea`
+- `dropdown` — field with caret
+- `button` — rounded rect with cursor
+- `form`
+- `stepper` — 1-2-3 dots on a line
+- `pagination`
+- `toast` — small bar at the bottom
+- `banner` — wide strip
+- `skeleton` — placeholder blocks
+- `spacing` — arrows between bars
+- `padding` — box inside a box
+- `border-radius` — corner arc
+- `grid-lines`
+- `ruler`
+- `guide-lines`
+- `responsive` — desktop, tablet, phone
+- `dark-mode` — moon
+- `light-mode` — sun
+- `system-theme` — half sun, half moon
+- `theme` — paint roller
+- `widget` — four squares, one rotated
+- `kanban` — three columns of cards
+- `whiteboard` — board on stand
+- `canvas` — easel
+- `frame-plus` — add frame
+
+## 14. Settings & system
+- `settings` — gear
+- `settings-sliders` — horizontal sliders
+- `cog`
+- `wrench`
+- `tools` — wrench and screwdriver
+- `hammer`
+- `screwdriver`
+- `preferences` — gear with person
+- `control-panel` — knobs
+- `toggle` — switch
+- `keyboard`
+- `keyboard-shortcut` — keycap
+- `mouse`
+- `gamepad`
+- `battery`
+- `battery-charging`
+- `battery-low`
+- `battery-full`
+- `plug`
+- `power-off`
+- `restart`
+- `sleep` — Zz
+- `update` — circular arrows with down arrow
+- `install` — box with down arrow
+- `uninstall` — box with x
+- `extension` — puzzle with plus
+- `language` — globe with "A"
+- `region` — globe with pin
+- `accessibility-settings` — figure with gear
+- `notification-settings` — bell with gear
+- `privacy-settings` — eye with gear
+- `storage-settings` — disk with gear
+- `trash-settings` — bin with gear
+- `admin` — shield with person
+- `logs` — scroll with lines
+- `diagnostics` — stethoscope
+- `health-check` — heart with pulse
+- `uptime` — arrow up with pulse
+- `performance` — speedometer
+- `memory-chip` — RAM stick
+- `temperature-system` — thermometer with chip
+- `fan`
+
+## 15. Devices & hardware
+- `monitor`
+- `laptop`
+- `desktop` — tower and monitor
+- `tablet`
+- `smartphone`
+- `smartwatch`
+- `tv`
+- `printer`
+- `scanner`
+- `webcam`
+- `speaker-device` — smart speaker
+- `earbuds`
+- `router`
+- `usb`
+- `hard-drive`
+- `sd-card`
+- `bluetooth` — generic rune shape
+- `nfc`
+- `qr-code`
+- `barcode`
+- `scan-qr` — QR in scan corners
+- `joystick`
+- `drone`
+- `robot-arm`
+- `satellite`
+- `chip-device` — IoT board
+- `smart-home` — house with wifi
+- `lightbulb`
+- `lightbulb-off`
+- `flashlight`
+- `thermostat`
+- `car`
+- `ev-charger`
+
+## 16. Cloud, network & connectivity
+- `cloud`
+- `cloud-upload`
+- `cloud-download`
+- `cloud-check`
+- `cloud-off`
+- `cloud-sync`
+- `cloud-sparkle`
+- `cloud-lock`
+- `wifi`
+- `wifi-off`
+- `wifi-low`
+- `signal`
+- `signal-low`
+- `antenna`
+- `globe`
+- `globe-lock`
+- `network` — three connected nodes
+- `share-network`
+- `hub`
+- `node`
+- `sync`
+- `sync-off`
+- `refresh-cloud`
+- `rss`
+- `broadcast-tower`
+- `ethernet`
+- `dns` — stacked server rows
+- `ip-address` — pin with dots
+- `bandwidth` — arrows up and down with bars
+- `offline-mode` — plane
+
+## 17. Communication
+- `mail`
+- `mail-open`
+- `mail-plus`
+- `mail-check`
+- `mail-sparkle` — AI draft email
+- `mails`
+- `envelope-send`
+- `phone`
+- `phone-call`
+- `phone-incoming`
+- `phone-outgoing`
+- `phone-missed`
+- `phone-off`
+- `video-call`
+- `voicemail`
+- `fax`
+- `meeting` — people around a table
+- `presentation` — board with chart
+- `screen-share`
+- `megaphone`
+- `announcement` — speaker with lines
+- `newsletter`
+- `comment`
+- `comments`
+- `chat-support` — headset with bubble
+- `call-center` — headset person
+- `contact-form` — form with envelope
+- `signature` — pen squiggle on a line
+- `stamp`
+- `post` — mailbox
+
+## 18. Time & calendar
+- `calendar`
+- `calendar-plus`
+- `calendar-minus`
+- `calendar-check`
+- `calendar-x`
+- `calendar-clock`
+- `calendar-days`
+- `calendar-range`
+- `calendar-sparkle` — AI scheduling
+- `clock`
+- `clock-alert`
+- `alarm-clock`
+- `stopwatch`
+- `timer`
+- `timer-off`
+- `hourglass-half`
+- `schedule` — calendar with list
+- `agenda`
+- `reminder` — bell with clock
+- `snooze` — clock with Zz
+- `deadline` — flag with clock
+- `recurring` — calendar with repeat arrow
+- `time-zone` — globe with clock
+- `sunrise`
+- `sunset`
+- `day` — sun
+- `night` — moon with stars
+
+## 19. Search & discovery
+- `search`
+- `search-plus`
+- `search-minus`
+- `search-x`
+- `search-check`
+- `search-code`
+- `search-image`
+- `search-file`
+- `search-user`
+- `search-history` — magnifier with clock
+- `scan-search` — magnifier in scan corners
+- `explore` — compass
+- `discover` — telescope
+- `binoculars`
+- `radar`
+- `map-search`
+- `trending` — fire with arrow
+- `recommend` — star with sparkle
+- `for-you` — heart with sparkle
+- `filter-search`
+- `voice-search` — mic with magnifier
+- `visual-search` — camera with magnifier
+
+## 20. Commerce, billing & finance
+- `shopping-cart`
+- `shopping-bag`
+- `basket`
+- `store`
+- `credit-card`
+- `wallet`
+- `receipt`
+- `invoice`
+- `coins`
+- `money` — banknote
+- `dollar`
+- `euro`
+- `pound`
+- `yen`
+- `bitcoin-like` — generic crypto coin
+- `bank`
+- `piggy-bank`
+- `cash-register`
+- `price-tag`
+- `discount` — tag with %
+- `coupon`
+- `gift-card`
+- `subscription` — card with repeat
+- `plan` — layered tiers
+- `upgrade` — arrow up in a circle with sparkle
+- `pro-badge` — diamond
+- `diamond`
+- `refund` — coin with back arrow
+- `transfer` — arrows between two coins
+- `payout` — hand with coin
+- `billing` — document with currency
+- `budget` — pie with coin
+- `trend-money` — coin with arrow up
+- `stock-chart`
+- `scale-price` — balance with coin
+- `checkout` — cart with check
+- `order` — box with list
+- `shipping` — truck
+- `delivery` — box with motion lines
+- `return-box` — box with back arrow
+
+## 21. Location & maps
+- `map`
+- `map-pin`
+- `map-pin-plus`
+- `map-pin-off`
+- `pin-drop`
+- `location` — crosshair
+- `location-off`
+- `route`
+- `directions` — split arrows sign
+- `globe-pin`
+- `earth`
+- `building`
+- `buildings`
+- `office`
+- `factory`
+- `warehouse`
+- `school`
+- `hospital`
+- `landmark` — columns
+- `flag`
+- `parking`
+- `layers-map`
+
+## 22. Transport & travel
+- `plane`
+- `plane-takeoff`
+- `plane-landing`
+- `train`
+- `bus`
+- `bike`
+- `scooter`
+- `ship`
+- `taxi`
+- `truck`
+- `fuel`
+- `luggage`
+- `passport`
+- `ticket-travel`
+- `hotel` — bed
+- `tent`
+- `mountain`
+- `beach` — umbrella
+
+## 23. Weather & nature
+- `sun`
+- `moon`
+- `cloud-sun`
+- `cloud-rain`
+- `cloud-snow`
+- `cloud-lightning`
+- `cloud-fog`
+- `wind`
+- `snowflake`
+- `umbrella`
+- `rainbow`
+- `droplet`
+- `flame`
+- `leaf`
+- `tree`
+- `flower`
+- `sprout`
+- `recycle`
+- `eco` — leaf with loop
+- `planet`
+- `star-shooting`
+- `paw`
+- `bird`
+- `fish`
+- `bug-insect` — ladybug
+
+## 24. Domains & use cases
+Common topic tiles in AI apps (e.g. "What do you want help with?").
+- `education` — graduation cap
+- `learn` — open book with sparkle
+- `quiz` — card with ?
+- `flashcards`
+- `research` — microscope
+- `science` — atom
+- `dna`
+- `health` — heart with plus
+- `medical` — stethoscope
+- `pill`
+- `fitness` — dumbbell
+- `nutrition` — apple
+- `mental-health` — brain with heart
+- `legal` — gavel
+- `contract` — document with signature
+- `finance` — chart with coin
+- `marketing` — megaphone with sparkle
+- `sales` — handshake with arrow
+- `hr` — people with heart
+- `recruiting` — person with magnifier
+- `writing` — fountain pen
+- `blog` — page with pen
+- `storytelling` — book with sparkle
+- `poetry` — quill
+- `design` — pen tool with ruler
+- `photography` — camera with lens
+- `music-production` — sliders with note
+- `gaming` — controller
+- `cooking` — chef hat
+- `food` — fork and knife
+- `coffee`
+- `travel` — suitcase
+- `real-estate` — house with tag
+- `home-life` — house with heart
+- `parenting` — adult and child
+- `pets` — paw
+- `sports` — ball
+- `fashion` — hanger
+- `beauty` — lipstick
+- `art` — palette with brush
+- `history-topic` — column
+- `philosophy` — thinker bust
+- `religion` — candle
+- `politics` — ballot box
+- `news` — newspaper
+- `productivity` — checkmark with lightning
+- `brainstorm` — lightbulb cluster
+- `strategy` — chess knight
+- `decision` — fork in the road
+- `customer-support` — headset
+- `engineering` — gear with ruler
+- `data-science` — chart with brain
+- `security-topic` — lock with shield
+- `ecommerce` — bag with cursor
+- `social-media` — heart, bubble, share cluster
+
+## 25. Misc & symbols
+- `circle`
+- `square`
+- `triangle`
+- `hexagon`
+- `octagon`
+- `pentagon`
+- `diamond-shape`
+- `dot`
+- `asterisk`
+- `at`
+- `ampersand`
+- `question`
+- `exclamation`
+- `copyright` — © (generic symbol, not a logo)
+- `trademark` — ™ symbol
+- `registered` — ® symbol
+- `open-source` — generic open circle mark (no OSI logo)
+- `license` — scroll with seal
+- `ai-chip-badge` — "AI" glyph inside a rounded square (only lettered icon)
+- `beta`
+- `lab` — flask with sparkle (experimental features)
+- `infinity-loop`
+- `atom`
+- `compass-rose`
+- `anchor`
+- `key-hole`
+- `puzzle-piece`
+- `bolt-circle`
+- `hand-pointing`
+- `hand-stop`
+- `hand-peace`
+- `hand-heart`
+- `cursor-sparkle` — AI pointer
+- `placeholder` — dashed square with an x

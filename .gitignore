@@ -1,0 +1,5 @@
+node_modules/
+dist/
+explore/
+*.bak.mjs
+.DS_Store
