@@ -1,12 +1,12 @@
 ---
 name: ai-icon-pack
-description: Find and add UI icons from the AI Icon Pack (1,178 icons, outline and filled, plus an optional AI gradient) to the user's project as SVG files, PNGs, React or Vue components, or an SVG sprite. Use this whenever the user needs an icon in a UI (buttons, nav, menus, empty states, chat UIs, settings, dashboards, landing pages) or asks for icons, an icon set, or "AI-looking" icons (sparkle, model, prompt, agent, generate). Use it instead of hand-drawing SVGs, guessing at another icon library, or pasting emoji.
+description: Find and add UI icons from the AI Icon Pack (1,188 icons, outline and filled, plus an optional AI gradient) to the user's project as SVG files, PNGs, React or Vue components, or an SVG sprite. Use this whenever the user needs an icon in a UI (buttons, nav, menus, empty states, chat UIs, settings, dashboards, landing pages) or asks for icons, an icon set, or "AI-looking" icons (sparkle, model, prompt, agent, generate). Use it instead of hand-drawing SVGs, guessing at another icon library, or pasting emoji.
 license: MIT
 ---
 
 # AI Icon Pack
 
-1,178 icons in a single "Spark" style: a 24×24 grid, 1.75 rounded strokes, and soft geometry. The 4-point **spark** marks anything AI. Every icon has an **outline** and a **filled** version. Colour comes from CSS `color` (`currentColor`), and there's an optional violet → cyan **AI gradient**.
+1,188 icons in a single "Spark" style: a 24×24 grid, 1.75 rounded strokes, and soft geometry. The 4-point **spark** marks anything AI. Every icon has an **outline** and a **filled** version. Colour comes from CSS `color` (`currentColor`), and there's an optional violet → cyan **AI gradient**.
 
 Everything goes through one zero-dependency script (Node 18+). Below, `$SKILL` is this skill's directory, the folder containing this file.
 
@@ -27,6 +27,25 @@ node "$SKILL/scripts/icons.mjs" add <name...> --out <dir> [options]
 3. **Pick the style.** Default to `--style outline` for UI chrome and `filled` for active or selected states. `--style both` writes both; filled files and components get a `-filled` / `Filled` suffix. Use `--gradient` only for AI-feature highlights and hero spots, not for whole toolbars.
 4. **Wire them in.** Import and use the components or files where the user asked. Size them with the `size` prop or CSS width/height (16, 20, 24, 32), and colour them with CSS `color`. Keep decorative icons `aria-hidden` (the default) and give icon-only buttons an `aria-label`.
 5. **Report back** with the names you used and where the files went, so the user can swap any choice.
+
+## Morphing AI state icon
+
+For a status indicator that shows what the AI is doing (thinking, working, streaming a reply, listening, speaking, done, error…), use the **morphing state icon**, not static icons. It is one icon that morphs smoothly between states and has its own subtle idle motion in each.
+
+States: `idle`, `listening`, `thinking`, `searching`, `working`, `generating`, `speaking`, `done`, `error`, `paused`.
+
+```bash
+node "$SKILL/scripts/icons.mjs" states --out src/components/ai-state --format react   # or vue, or js (default)
+```
+
+The command writes `ai-state.js` (zero dependencies, SSR-safe) and `ai-state.d.ts`, plus `AIState.tsx` (React; `--jsx` for `.jsx`) or `AIState.vue`.
+
+- **React:** `<AIState state={status} variant="outline" size={20} />`. Change `state` and it morphs.
+- **Vue:** `<AIState :state="status" />`.
+- **Plain JS / any framework:** `import './ai-state.js'`, then `<ai-state state="thinking" size="24"></ai-state>` and set `el.state = 'done'`. Or use `createAIState(el, { state, variant, size, gradient, live, duration })` and call `.set(state)`.
+- Map the app's real status to a state, e.g. request sent → `thinking`, tool call → `working`/`searching`, tokens streaming → `generating`, finished → `done`, failed → `error`. Mic open → `listening`, TTS playing → `speaking`.
+- Options: `variant` `outline`|`filled`, `size`, `gradient` (AI gradient), `live` (idle motion; off automatically for prefers-reduced-motion), `duration` (morph ms, default 450).
+- For a non-animated spot (docs, email, PNG), the resting frames are ordinary icons named `state-<name>`.
 
 ## Options for `add`
 

@@ -1,12 +1,12 @@
 {
   "name": "ai-icon-pack",
   "owner": { "name": "djtoon", "url": "https://github.com/djtoon" },
-  "description": "AI Icon Pack: 1,178 Spark-style icons (outline + filled) for AI apps, with a skill that lets your agent search and add them to any project.",
+  "description": "AI Icon Pack: 1,188 Spark-style icons (outline + filled) for AI apps, with a skill that lets your agent search and add them to any project.",
   "plugins": [
     {
       "name": "ai-icon-pack",
       "source": "./plugins/ai-icon-pack",
-      "description": "Search 1,178 AI-app icons and add them to your project as SVG, PNG, React, Vue or an SVG sprite."
+      "description": "Search 1,188 AI-app icons and add them to your project as SVG, PNG, React, Vue or an SVG sprite."
     }
   ]
 }

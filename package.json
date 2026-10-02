@@ -1,12 +1,13 @@
 {
   "name": "ai-icon-pack",
-  "version": "1.0.0",
-  "description": "1,178 Spark-style icons for AI apps (outline + filled, SVG/PNG) with an Agent Skill that adds them to any project.",
+  "version": "1.1.0",
+  "description": "1,188 Spark-style icons for AI apps (outline + filled, SVG/PNG) with an Agent Skill that adds them to any project.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/build.mjs --check",
     "package": "node scripts/package.mjs",
-    "social": "node scripts/social.mjs"
+    "social": "node scripts/social.mjs",
+    "states-film": "node scripts/states-film.mjs"
   },
   "license": "MIT",
   "type": "module",

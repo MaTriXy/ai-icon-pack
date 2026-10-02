@@ -11,6 +11,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { gradientSvg } from './svg.mjs';
 import { ROOT, readList, loadIcons } from './load.mjs';
+import { STATE_NAMES } from '../src/states/ai-state.js';
 
 const PLUGIN = path.join(ROOT, 'plugins', 'ai-icon-pack');
 const SKILL = path.join(PLUGIN, 'skills', 'ai-icon-pack');
@@ -35,9 +36,16 @@ const manifest = {
   version,
   count: icons.length,
   styles: ['outline', 'filled'],
+  states: STATE_NAMES,
   icons: icons.map(({ name, category, hint }) => ({ name, category, hint })),
 };
 await writeFile(path.join(SKILL, 'manifest.json'), JSON.stringify(manifest, null, 1) + '\n');
+
+// ── morphing AI states runtime → skill + site ──
+await mkdir(path.join(SKILL, 'runtime'), { recursive: true });
+for (const f of ['ai-state.js', 'ai-state.d.ts']) await cp(path.join(ROOT, 'src', 'states', f), path.join(SKILL, 'runtime', f));
+await mkdir(DOCS, { recursive: true });
+await cp(path.join(ROOT, 'src', 'states', 'ai-state.js'), path.join(DOCS, 'ai-state.js'));
 
 // ── site data ──
 await mkdir(path.join(DOCS, 'downloads'), { recursive: true });

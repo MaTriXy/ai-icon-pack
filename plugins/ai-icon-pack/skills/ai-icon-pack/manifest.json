@@ -1,10 +1,22 @@
 {
  "name": "ai-icon-pack",
- "version": "1.0.0",
- "count": 1178,
+ "version": "1.1.0",
+ "count": 1188,
  "styles": [
   "outline",
   "filled"
+ ],
+ "states": [
+  "idle",
+  "listening",
+  "thinking",
+  "searching",
+  "working",
+  "generating",
+  "speaking",
+  "done",
+  "error",
+  "paused"
  ],
  "icons": [
   {
@@ -5896,6 +5908,56 @@
    "name": "placeholder",
    "category": "Misc & symbols",
    "hint": "dashed square with an x"
+  },
+  {
+   "name": "state-idle",
+   "category": "AI states (morphing)",
+   "hint": "AI at rest: sparkles"
+  },
+  {
+   "name": "state-listening",
+   "category": "AI states (morphing)",
+   "hint": "equalizer bars (listening, voice input)"
+  },
+  {
+   "name": "state-thinking",
+   "category": "AI states (morphing)",
+   "hint": "spark over three dots (thinking, reasoning)"
+  },
+  {
+   "name": "state-searching",
+   "category": "AI states (morphing)",
+   "hint": "lens with a spark (searching, retrieving)"
+  },
+  {
+   "name": "state-working",
+   "category": "AI states (morphing)",
+   "hint": "spark with orbiting dots (working, processing, loading)"
+  },
+  {
+   "name": "state-generating",
+   "category": "AI states (morphing)",
+   "hint": "lines being written, spark at the cursor (generating, writing, streaming)"
+  },
+  {
+   "name": "state-speaking",
+   "category": "AI states (morphing)",
+   "hint": "spark with sound bars (speaking, voice output)"
+  },
+  {
+   "name": "state-done",
+   "category": "AI states (morphing)",
+   "hint": "check with a spark (done, complete, success)"
+  },
+  {
+   "name": "state-error",
+   "category": "AI states (morphing)",
+   "hint": "x (error, failed)"
+  },
+  {
+   "name": "state-paused",
+   "category": "AI states (morphing)",
+   "hint": "two bars (paused, waiting, stopped)"
   }
  ]
 }

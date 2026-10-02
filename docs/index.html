@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Icon Pack</title>
-<meta name="description" content="1,178 Spark-style icons for AI apps — outline + filled, SVG & PNG, with a Claude skill that adds them to your project.">
+<meta name="description" content="1,188 Spark-style icons for AI apps — outline + filled, SVG & PNG, with a Claude skill that adds them to your project.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="AI Icon Pack — icons made for AI apps">
-<meta property="og:description" content="1,178 icons, outline + filled, SVG/PNG/React/Vue, with a Claude skill that adds them to any project. Free and MIT.">
+<meta property="og:description" content="1,188 icons, outline + filled, SVG/PNG/React/Vue, with a Claude skill that adds them to any project. Free and MIT.">
 <meta property="og:url" content="https://djtoon.github.io/ai-icon-pack/">
 <meta property="og:image" content="https://djtoon.github.io/ai-icon-pack/social.png">
 <meta property="og:image:width" content="1600">
@@ -108,6 +108,17 @@ body.open .scrim{opacity:1;pointer-events:auto}body.open .drawer{transform:none}
 .snip .copy{position:absolute;top:8px;right:8px;border:0;background:rgba(255,255,255,.1);color:#fff;border-radius:7px;width:28px;height:28px;display:grid;place-items:center;cursor:pointer}
 .snip .copy svg{width:15px;height:15px}
 .label{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;margin-bottom:-8px}
+.states-stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px 18px;display:flex;flex-direction:column;align-items:center;gap:22px;box-shadow:var(--shadow)}
+.states-big{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.states-big figure{margin:0;background:var(--surface-2);border-radius:16px;padding:22px 26px 12px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.states-big figcaption{font-size:12px;color:var(--muted)}
+.st-host{color:var(--ink);display:inline-flex}
+.states-small{display:flex;gap:16px;align-items:center;color:var(--muted);font-size:13px}
+.state-btns{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.state-btns button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;cursor:pointer;color:var(--ink-2);font-weight:500}
+.state-btns button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cycle{font-size:14px;color:var(--ink-2);display:flex;gap:6px;align-items:center}
+.st-snip{margin-top:16px}
 /* install */
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
 .tabs button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;cursor:pointer;color:var(--ink-2);font-weight:500}
@@ -134,7 +145,7 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
 <nav><div class="wrap">
   <a class="brand" href="#top" data-ic="sparkles" data-style="filled" data-grad="1">AI Icon Pack</a>
   <div class="links">
-    <a href="#icons">Icons</a><a href="#install">Install</a><a class="hide-sm" href="#use">Use</a>
+    <a href="#icons">Icons</a><a href="#states">States</a><a href="#install">Install</a><a class="hide-sm" href="#use">Use</a>
     <a class="hide-sm" href="https://github.com/djtoon/ai-icon-pack">GitHub</a>
     <button class="icon-btn" id="theme" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2"/></svg></button>
   </div>
@@ -142,14 +153,14 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
 
 <header class="hero wrap" id="top">
   <h1>Icons that look like<br><span>they were made for AI.</span></h1>
-  <p><b id="hero-count">1,178</b> icons in one soft, rounded style, where the spark marks anything AI. Outline and filled, SVG and PNG, plus a skill that lets Claude (or any agent) drop them into your project.</p>
+  <p><b id="hero-count">1,188</b> icons in one soft, rounded style, where the spark marks anything AI. Outline and filled, SVG and PNG, plus a skill that lets Claude (or any agent) drop them into your project.</p>
   <div class="cta">
     <a class="btn primary" href="#install"><span data-ic="sparkles" data-style="filled"></span>Install the skill</a>
     <a class="btn" href="downloads/ai-icon-pack-svg.zip" download><span data-ic="download"></span>Download all SVGs</a>
     <a class="btn" href="#icons"><span data-ic="search"></span>Browse icons</a>
   </div>
   <div class="strip" id="strip"></div>
-  <div class="stats"><div><b id="stat-icons">1,178</b>icons</div><div><b>2</b>styles</div><div><b>25</b>categories</div><div><b>SVG · PNG · React · Vue</b>formats</div></div>
+  <div class="stats"><div><b id="stat-icons">1,188</b>icons</div><div><b>2</b>styles</div><div><b>26</b>categories</div><div><b>SVG · PNG · React · Vue</b>formats</div></div>
 </header>
 
 <section id="icons"><div class="wrap">
@@ -172,6 +183,27 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between}
     </div>
   </div>
   <div class="grid" id="grid" aria-live="polite"></div>
+</div></section>
+
+<section id="states"><div class="wrap">
+  <h2>Morphing AI states</h2>
+  <p class="lead">One icon for everything your assistant is doing. Every state is built from the same five shapes, so it morphs smoothly from any state to any other, and each state has its own subtle motion: dots bounce, bars listen, the spark orbits.</p>
+  <div class="states-stage">
+    <div class="states-big">
+      <figure><div class="st-host" data-variant="outline"></div><figcaption>outline</figcaption></figure>
+      <figure><div class="st-host" data-variant="filled"></div><figcaption>filled</figcaption></figure>
+      <figure><div class="st-host" data-variant="filled" data-gradient="1"></div><figcaption>AI gradient</figcaption></figure>
+    </div>
+    <div class="states-small"><span>Real size</span><div class="st-host" data-variant="outline" data-size="16"></div><div class="st-host" data-variant="outline" data-size="20"></div><div class="st-host" data-variant="outline" data-size="24"></div><div class="st-host" data-variant="filled" data-size="24"></div></div>
+    <div class="state-btns" role="group" aria-label="AI state"></div>
+    <label class="cycle"><input type="checkbox" id="st-cycle" checked> Auto-cycle</label>
+  </div>
+  <div class="snip st-snip">&lt;script type="module" src="ai-state.js"&gt;&lt;/script&gt;
+&lt;ai-state state="thinking" variant="outline" size="24"&gt;&lt;/ai-state&gt;
+
+// later, from your app:
+document.querySelector('ai-state').state = 'generating';   // morphs</div>
+  <p class="lead" style="margin-top:12px">Ask your agent for it with the skill (<code>node scripts/icons.mjs states --out src/components --format react</code>), or download <a href="ai-state.js" download>ai-state.js</a> (zero dependencies, ~8 KB). React and Vue wrappers come from the skill. The static frames are in the pack as <code>state-*</code> icons.</p>
 </div></section>
 
 <section id="install"><div class="wrap">
@@ -390,7 +422,7 @@ cd ai-icon-pack && npm install && npm run build   # → dist/svg, dist/png, dist
   const copyIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>';
   function setSnip(sel, text) { const el = $(sel); el.textContent = text; addCopy(el); }
   function addCopy(el) { const b = document.createElement('button'); b.className = 'copy'; b.setAttribute('aria-label', 'Copy'); b.innerHTML = copyIcon; b.onclick = () => copy(el.firstChild.textContent ?? el.textContent); el.appendChild(b); }
-  document.querySelectorAll('.panel .snip, #use .snip').forEach(addCopy);
+  document.querySelectorAll('.panel .snip, #use .snip, #states .snip').forEach(addCopy);
 
   function toast(msg) { const el = $('#toast'); el.textContent = msg; el.classList.add('on'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('on'), 1400); }
   function copy(text) { navigator.clipboard.writeText(text).then(() => toast('Copied'), () => toast('Copy failed — select and copy manually')); }
@@ -440,6 +472,17 @@ cd ai-icon-pack && npm install && npm run build   # → dist/svg, dist/png, dist
 
   render();
 })();
+</script>
+<script type="module">
+import { createAIState, STATE_NAMES } from "./ai-state.js";
+const hosts = [...document.querySelectorAll(".st-host")].map((el) => createAIState(el, { state: "idle", variant: el.dataset.variant, gradient: !!el.dataset.gradient, size: +(el.dataset.size || 88) }));
+const btns = document.querySelector(".state-btns");
+let cur = "idle";
+const go = (s) => { cur = s; hosts.forEach((h) => h.set(s)); btns.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.s === s)); };
+btns.innerHTML = STATE_NAMES.map((s) => `<button data-s="${s}" aria-pressed="${s === cur}">${s}</button>`).join("");
+const cycle = document.getElementById("st-cycle");
+btns.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; cycle.checked = false; go(b.dataset.s); });
+setInterval(() => { if (cycle.checked && !document.hidden) go(STATE_NAMES[(STATE_NAMES.indexOf(cur) + 1) % STATE_NAMES.length]); }, 2200);
 </script>
 </body>
 </html>

@@ -6,6 +6,7 @@
 //   node icons.mjs categories
 //   node icons.mjs list [--category <text>]
 //   node icons.mjs show <name> [--style outline|filled] [--gradient]
+//   node icons.mjs states --out <dir> [--format js|react|vue] [--jsx]
 //   node icons.mjs add <name...> --out <dir> [--format svg|png|react|vue|sprite] [--style outline|filled|both]
 //                       [--gradient] [--size 24[,48,...]] [--color #111] [--jsx] [--prefix Icon]
 
@@ -261,6 +262,56 @@ switch (cmd) {
     console.log(written.map((f) => `wrote ${f}`).join('\n'));
     break;
   }
+  case 'states': {
+    // Morphing AI state icon: runtime + optional framework wrapper.
+    const out = path.resolve(flags.out || die('--out <dir> is required'));
+    mkdirSync(out, { recursive: true });
+    const format = flags.format || 'js';
+    if (!['js', 'react', 'vue'].includes(format)) die('--format must be js, react or vue');
+    const written = [];
+    for (const f of ['ai-state.js', 'ai-state.d.ts']) {
+      const dest = path.join(out, f);
+      writeFileSync(dest, readFileSync(path.join(SKILL_DIR, 'runtime', f), 'utf8'));
+      written.push(dest);
+    }
+    if (format === 'react') {
+      const ext = flags.jsx ? 'jsx' : 'tsx';
+      const ts = !flags.jsx;
+      const code =
+        `${ts ? "import { useEffect, useRef, type CSSProperties } from 'react';\nimport { createAIState, type AIStateInstance, type AIStateName } from './ai-state.js';\n" : "import { useEffect, useRef } from 'react';\nimport { createAIState } from './ai-state.js';\n"}\n` +
+        `// Morphing AI state icon (AI Icon Pack). Change \`state\` and it morphs smoothly. Colour follows CSS \`color\`.\n` +
+        (ts
+          ? `export interface AIStateProps {\n  state?: AIStateName;\n  variant?: 'outline' | 'filled';\n  size?: number | string;\n  gradient?: boolean;\n  live?: boolean;\n  duration?: number;\n  label?: string;\n  className?: string;\n  style?: CSSProperties;\n}\n\n`
+          : '') +
+        `export function AIState({ state = 'idle', variant = 'outline', size = 24, gradient = false, live, duration = 450, label, className, style }${ts ? ': AIStateProps' : ''}) {\n` +
+        `  const host = useRef${ts ? '<HTMLSpanElement>' : ''}(null);\n` +
+        `  const ai = useRef${ts ? '<AIStateInstance | null>' : ''}(null);\n\n` +
+        `  useEffect(() => {\n    ai.current = createAIState(host.current${ts ? '!' : ''}, { state, variant, size, gradient, live, duration, label });\n    return () => { ai.current?.destroy(); ai.current = null; };\n    // eslint-disable-next-line react-hooks/exhaustive-deps\n  }, []);\n` +
+        `  useEffect(() => { ai.current?.set(state); }, [state]);\n` +
+        `  useEffect(() => { ai.current?.configure({ variant, size, gradient, live, duration, label }); }, [variant, size, gradient, live, duration, label]);\n\n` +
+        `  return <span ref={host} className={className} style={{ display: 'inline-flex', ...style }} />;\n}\n\nexport default AIState;\n`;
+      const dest = path.join(out, `AIState.${ext}`);
+      writeFileSync(dest, code);
+      written.push(dest);
+    }
+    if (format === 'vue') {
+      const code =
+        `<!-- Morphing AI state icon (AI Icon Pack). Change \`state\` and it morphs smoothly. Colour follows CSS \`color\`. -->\n` +
+        `<script setup>\nimport { ref, onMounted, onBeforeUnmount, watch } from 'vue';\nimport { createAIState } from './ai-state.js';\n\n` +
+        `const props = defineProps({\n  state: { type: String, default: 'idle' },\n  variant: { type: String, default: 'outline' },\n  size: { type: [Number, String], default: 24 },\n  gradient: { type: Boolean, default: false },\n  live: { default: undefined }, // true / false; unset = animate unless the user prefers reduced motion\n  duration: { type: Number, default: 450 },\n  label: { type: String, default: undefined },\n});\n` +
+        `const host = ref(null);\nlet ai = null;\n` +
+        `onMounted(() => { ai = createAIState(host.value, { ...props }); });\nonBeforeUnmount(() => ai?.destroy());\n` +
+        `watch(() => props.state, (s) => ai?.set(s));\n` +
+        `watch(() => [props.variant, props.size, props.gradient, props.live, props.duration, props.label], () => ai?.configure({ variant: props.variant, size: props.size, gradient: props.gradient, live: props.live, duration: props.duration, label: props.label }));\n</script>\n\n` +
+        `<template>\n  <span ref="host" style="display: inline-flex" />\n</template>\n`;
+      const dest = path.join(out, 'AIState.vue');
+      writeFileSync(dest, code);
+      written.push(dest);
+    }
+    console.log(written.map((f) => `wrote ${f}`).join('\n'));
+    console.log(`states: ${manifest.states.join(', ')}`);
+    break;
+  }
   default:
     console.log(`AI Icon Pack — ${manifest.icons.length} icons × outline/filled (v${manifest.version})
 Commands:
@@ -269,5 +320,6 @@ Commands:
   list [--category <text>]                            list icon names
   show <name> [--style outline|filled] [--gradient]   print the SVG markup
   add <name...> --out <dir> [--format svg|png|react|vue|sprite] [--style outline|filled|both]
-                [--gradient] [--color <css colour>] [--size 24[,48]] [--jsx] [--prefix Icon]`);
+                [--gradient] [--color <css colour>] [--size 24[,48]] [--jsx] [--prefix Icon]
+  states --out <dir> [--format js|react|vue] [--jsx]  add the morphing AI state icon (idle, thinking, working…)`);
 }

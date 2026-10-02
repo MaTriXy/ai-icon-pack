@@ -1,6 +1,6 @@
 # AI Icon Pack
 
-**1,178 icons that look like they were made for AI apps.** They share one soft, rounded "Spark" style, where the 4-point spark marks anything AI. Every icon comes in **outline and filled**, as **SVG and PNG**, with an optional **AI gradient**. The pack ships as an **Agent Skill**, so Claude (or any agent) can search it and drop icons straight into your project.
+**1,188 icons that look like they were made for AI apps.** They share one soft, rounded "Spark" style, where the 4-point spark marks anything AI. Every icon comes in **outline and filled**, as **SVG and PNG**, with an optional **AI gradient**. The pack ships as an **Agent Skill**, so Claude (or any agent) can search it and drop icons straight into your project.
 
 **[Browse the icons →](https://djtoon.github.io/ai-icon-pack/)**
 
@@ -79,6 +79,34 @@ node scripts/icons.mjs show lock --style filled          # print raw SVG
 | `--jsx` | React `.jsx` instead of `.tsx` | off |
 
 PNG output uses `@resvg/resvg-js`. If it isn't installed, the script prints the one-line command to add it.
+
+## Morphing AI states
+
+One icon that shows what your assistant is doing and **morphs smoothly between states**. Each state also has its own subtle motion: dots bounce while thinking, bars move while listening, the spark orbits while working.
+
+`idle` · `listening` · `thinking` · `searching` · `working` · `generating` · `speaking` · `done` · `error` · `paused`
+
+![Every state transition, frame by frame](docs/states-film.png)
+
+**[See it live →](https://djtoon.github.io/ai-icon-pack/#states)**
+
+```html
+<script type="module" src="ai-state.js"></script>
+<ai-state state="thinking" variant="outline" size="24"></ai-state>
+<script>document.querySelector('ai-state').state = 'generating';</script>
+```
+
+```jsx
+<AIState state={status} variant="filled" size={20} gradient />   // React wrapper; change `state` to morph
+```
+
+To get the files:
+- **With the skill:** `node scripts/icons.mjs states --out src/components --format react|vue|js`, or just ask your agent.
+- **Directly:** download [`ai-state.js`](https://djtoon.github.io/ai-icon-pack/ai-state.js). It's zero-dependency, SSR-safe, and ships with types (`ai-state.d.ts` in the skill's `runtime/` folder).
+
+Options: `variant` (`outline` | `filled`), `size`, `gradient`, `live` (idle motion, off automatically for reduced-motion users) and `duration` (morph length in ms).
+
+How it works: every state is drawn with the same five shapes, each a single path with an identical command structure. A morph interpolates each shape's position, size, curvature, rotation and opacity, staggered slightly so shapes flow past each other. The resting frames also ship as static icons named `state-*`, in outline and filled, as SVG and PNG. The source is `src/states/ai-state.js`.
 
 ## The style
 

@@ -1240,3 +1240,16 @@ Common topic tiles in AI apps (e.g. "What do you want help with?").
 - `hand-heart`
 - `cursor-sparkle` — AI pointer
 - `placeholder` — dashed square with an x
+
+## 26. AI states (morphing)
+Resting frames of the morphing `<ai-state>` component (`src/states/ai-state.js`). Every state is built from the same five shapes, so any state morphs smoothly into any other.
+- `state-idle` — AI at rest: sparkles
+- `state-listening` — equalizer bars (listening, voice input)
+- `state-thinking` — spark over three dots (thinking, reasoning)
+- `state-searching` — lens with a spark (searching, retrieving)
+- `state-working` — spark with orbiting dots (working, processing, loading)
+- `state-generating` — lines being written, spark at the cursor (generating, writing, streaming)
+- `state-speaking` — spark with sound bars (speaking, voice output)
+- `state-done` — check with a spark (done, complete, success)
+- `state-error` — x (error, failed)
+- `state-paused` — two bars (paused, waiting, stopped)
